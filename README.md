@@ -2,7 +2,7 @@
 
 **FortyGuard Hackathon'26 — "Building the World's Temperature AI"**
 **Georgia agricultural thermal management: field → truck → Port of Savannah.**
-**Demo day: 2026-08-19 (Day 7 — submission complete).**
+**Demo day: 2026-08-19 (submission complete).**
 
 ---
 
@@ -45,10 +45,10 @@ FortyGuard API ──► fortyguard_sdk (async client, plan gates, polling)
    heat_intelligence ──► PDF report (Premium)
                         │
                         ▼
-       SQLite + JSON fixtures (recorded live API output, Day 6)
+       SQLite + JSON fixtures (recorded live API output)
                         │
                         ▼
-          Streamlit dashboard (6 tabs)  ·  FastAPI control plane (`fg serve`)
+         Streamlit dashboard (6 tabs)  ·  FastAPI control plane (`fg serve`)
 ```
 
 **Fallback by design:** `DATA_SOURCE=fixtures|live|hybrid` (default
@@ -69,13 +69,10 @@ USDA H66 kinetics). All unit-tested with exact-value pins.
 
 ## Team
 
-- **Employee 1** — Domain logic: canopy risk, harvest timing, Q10 spoilage,
-  corridor routing (Days 1–3)
-- **Employee 2** — API integration, services, CLI, monitor orchestrator,
-  alerting, reporting (Days 1–4)
-- **Employee 3** — Streamlit dashboard, fixtures, rehearsals (Days 5–6)
-- **Employee 4** — Day 7: polish, fallback modes, Q&A prep, security sweep,
-  submission bundle
+- **Thermal Systems Engineer** — Domain logic: canopy risk, harvest timing, Q10 spoilage, corridor routing
+- **API Integration Lead** — FortyGuard SDK, services, CLI, monitor orchestrator, alerting, reporting
+- **Frontend & UX Engineer** — Streamlit dashboard, fixtures generation, rehearsal automation
+- **DevOps & Security** — Polish, fallback modes, Q&A prep, security sweep, submission bundle
 
 ## Quick Start
 
@@ -98,7 +95,7 @@ fg serve
 fg --help
 ```
 
-Live mode requires a key in `.env` (`FORTYGUARD_API_KEY=...`) and
+Live mode requires a key in `.env` (`FG_API_KEY=...`) and
 `DATA_SOURCE=live|hybrid`. Tests:
 
 ```bash
@@ -120,5 +117,5 @@ I-16 176 mi @91.3°F · spoilage −54% load / −23% season · $180K saved ·
 - `docs/07_qa_prep.md` — 19 anticipated judge questions with answers
 - `docs/08_presenter_one_sheet.md` — printable presenter cheat sheet
 - `docs/09_technical_risks.md` — honest risk register
-- `docs/10_security_audit.md` — Day-7 security/compliance audit
+- `docs/10_security_audit.md` — security/compliance audit
 - `API_INTEGRATION_DESIGN.md` — full SDK/API integration design
