@@ -23,7 +23,7 @@ OUT = Path(__file__).resolve().parents[1] / "data" / "fixtures" / "heat_intellig
 
 
 async def main() -> None:
-    key = os.environ.get("FG_API_KEY") or "REDACTED_API_KEY"
+    key = os.environ.get("FG_API_KEY")
     client = FortyGuardClient(key, plan=Plan.PREMIUM)
     try:
         req = HeatIntelligenceRequest(
