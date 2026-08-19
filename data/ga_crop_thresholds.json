@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "description": "PeachState CoolChain — Georgia crop canopy/2m-air heat thresholds (°F), risk weights, GDD params, and Q10 spoilage params. Air-temp thresholds validated for GA humid subtropical climate (Employee 1 architecture review).",
+  "frozen_date": "2026-08-18",
+  "crops": {
+    "peach": {
+      "name": "Peach (Fort Valley / Peach County)",
+      "canopy_threshold_f": 95.0,
+      "critical_threshold_f": 100.0,
+      "gdd_base_f": 50.0,
+      "harvest_gdd": 2200.0,
+      "q10": 2.8,
+      "notes": ">95°F = rapid softening, brown rot; >100°F critical softening"
+    },
+    "pecan": {
+      "name": "Pecan (Albany / Dougherty County)",
+      "canopy_threshold_f": 95.0,
+      "critical_threshold_f": 100.0,
+      "gdd_base_f": 55.0,
+      "harvest_gdd": 1800.0,
+      "q10": 1.8,
+      "notes": "Kernel fill is water-driven (UGA); heat + moisture co-driver required"
+    },
+    "blueberry": {
+      "name": "Blueberry (Bacon / Appling Counties)",
+      "canopy_threshold_f": 90.0,
+      "critical_threshold_f": 95.0,
+      "gdd_base_f": 50.0,
+      "harvest_gdd": 1500.0,
+      "q10": 3.0,
+      "notes": ">90°F = accelerated decay, anthocyanin loss"
+    },
+    "onion": {
+      "name": "Vidalia Onion (Toombs County)",
+      "canopy_threshold_f": 85.0,
+      "critical_threshold_f": 90.0,
+      "gdd_base_f": 40.0,
+      "harvest_gdd": 2600.0,
+      "q10": 2.0,
+      "notes": "Curing/transit: >85°F = sprouting, rot"
+    },
+    "watermelon": {
+      "name": "Watermelon (Crisp / Cordele area)",
+      "canopy_threshold_f": 95.0,
+      "critical_threshold_f": 100.0,
+      "gdd_base_f": 55.0,
+      "harvest_gdd": 1600.0,
+      "q10": 2.2,
+      "notes": ">95°F = hollow heart, reduced shelf life (heat-adjacent, mechanism is pollination)"
+    }
+  },
+  "risk_tiers": {
+    "LOW":       {"max_score": 40},
+    "MEDIUM":    {"max_score": 60},
+    "HIGH":      {"max_score": 75},
+    "CRITICAL":  {"max_score": 100}
+  }
+}

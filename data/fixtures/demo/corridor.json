@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "day6_fixture",
+  "endpoint": "POST /corridor",
+  "analytic": null,
+  "generated_ts": "2026-08-19T08:55:51+00:00",
+  "frozen_date": "2025-07-15",
+  "params": {
+    "origin": "Macon, GA",
+    "destination": "Port of Savannah, GA",
+    "routes": ["I75", "I16"],
+    "date": "2025-07-15"
+  },
+  "response": {
+    "origin": {"name": "Macon", "lat": 32.8407, "lon": -83.6324},
+    "destination": {"name": "Port of Savannah", "lat": 32.0835, "lon": -81.0998},
+    "recommended": "I16",
+    "recommendation": "I-16 saves 54% spoilage risk, 12% fuel, 142 mi shorter",
+    "routes": [
+      {
+        "route_id": "I16",
+        "label": "I-16 · coastal (cool)",
+        "distance_mi": 176.0,
+        "avg_temp_f": 91.3,
+        "peak_temp_f": 96.1,
+        "heat_exposure": 16080.5,
+        "spoilage_risk_pct": 3.1,
+        "fuel_gal": 116.0,
+        "eta_hours": 3.2,
+        "points": [
+          {"d_mi": 0, "temp_f": 90.1, "lat": 32.8407, "lon": -83.6324},
+          {"d_mi": 44, "temp_f": 90.8, "lat": 32.65, "lon": -83.0},
+          {"d_mi": 88, "temp_f": 91.5, "lat": 32.45, "lon": -82.35},
+          {"d_mi": 132, "temp_f": 92.0, "lat": 32.25, "lon": -81.7},
+          {"d_mi": 176, "temp_f": 91.3, "lat": 32.0835, "lon": -81.0998}
+        ]
+      },
+      {
+        "route_id": "I75",
+        "label": "I-75 · inland (hot)",
+        "distance_mi": 318.0,
+        "avg_temp_f": 97.1,
+        "peak_temp_f": 102.4,
+        "heat_exposure": 30877.8,
+        "spoilage_risk_pct": 6.8,
+        "fuel_gal": 132.0,
+        "eta_hours": 5.1,
+        "points": [
+          {"d_mi": 0, "temp_f": 95.2, "lat": 32.8407, "lon": -83.6324},
+          {"d_mi": 80, "temp_f": 97.5, "lat": 31.9, "lon": -83.5},
+          {"d_mi": 160, "temp_f": 98.2, "lat": 31.1, "lon": -83.3},
+          {"d_mi": 240, "temp_f": 97.8, "lat": 31.5, "lon": -82.1},
+          {"d_mi": 318, "temp_f": 96.5, "lat": 32.0835, "lon": -81.0998}
+        ]
+      }
+    ]
+  }
+}

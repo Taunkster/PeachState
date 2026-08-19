@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "kind": "day6_fixture",
+  "endpoint": "POST /heat_intelligence",
+  "analytic": null,
+  "generated_ts": "2026-08-19T08:55:51+00:00",
+  "frozen_date": "2025-07-15",
+  "params": {
+    "site": "fort_valley",
+    "date": "2025-07-15",
+    "analysis": [
+      "environmental"
+    ]
+  },
+  "response": {
+    "activity_id": "a4f65006-9322-491a-adb2-a5b30a21ecad",
+    "title": "Heat Intelligence Report \u2014 Fort Valley / Peach County",
+    "generated_ts": "2025-07-15T19:00:00Z",
+    "download_link_present": true,
+    "download_link_preview": "https://api.fortyguard.com/v1/reports/...signed-url-redacted",
+    "summary": {
+      "region": "Fort Valley / Peach County, GA",
+      "pages": 268,
+      "sections": [
+        "Geographic",
+        "Environmental",
+        "Urban",
+        "Events",
+        "Anthropogenic"
+      ],
+      "headline": "Extreme-heat window 13:00-18:00 EDT; canopy risk peaks 15:00; brown-rot acceleration risk on peach surfaces."
+    },
+    "pdf_path": "heat_intelligence_fort_valley.pdf"
+  },
+  "source": "cached"
+}

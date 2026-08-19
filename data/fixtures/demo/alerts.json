@@ -1,0 +1,157 @@
+{
+ "alerts": [
+  {
+   "field_id": "PV-07",
+   "crop": "peach",
+   "tier": "critical",
+   "canopy_temp_f": 98.2,
+   "urgency": 91.0,
+   "threshold_f": 95.0,
+   "exceedance_hours": 3.4,
+   "recommended_action": "HARVEST_NOW",
+   "ts": "2025-07-15T19:04:00Z",
+   "acknowledged": false,
+   "sms": {
+    "from": "PeachState Agent",
+    "to": "+1 (478) 555-0142 \u00b7 Foreman M. Reed",
+    "body": "FIELD PV-07 \u2014 HARVEST NOW\n98\u00b0F \u00b7 3.4h above threshold \u00b7 +6h forecast\nPacking house: Fort Valley Peach Co-op (pre-cool slot 4:30 PM)\nTruck: Reefer #212 dispatched \u00b7 I-16 corridor",
+    "status": "SENT",
+    "sent_ts": "2025-07-15T19:04:00Z"
+   },
+   "packing_house": {
+    "facility_id": "PH-FV-01",
+    "name": "Fort Valley Peach Co-op",
+    "precool_slot": "2025-07-15T20:30:00Z",
+    "inbound_quantity": "12,400 lb",
+    "truck_id": "Reefer #212",
+    "cold_storage_lb": 480000
+   }
+  },
+  {
+   "field_id": "AL-04",
+   "crop": "pecan",
+   "tier": "high",
+   "canopy_temp_f": 97.4,
+   "urgency": 84.0,
+   "threshold_f": 95.0,
+   "exceedance_hours": 4.2,
+   "recommended_action": "PREPARE_HARVEST",
+   "ts": "2025-07-15T18:22:00Z",
+   "acknowledged": false,
+   "sms": null,
+   "packing_house": {
+    "facility_id": "PH-AL-01",
+    "name": "Albany Pecan Growers",
+    "precool_slot": "2025-07-15T21:00:00Z",
+    "inbound_quantity": "8,600 lb",
+    "truck_id": "Reefer #117",
+    "cold_storage_lb": 620000
+   }
+  },
+  {
+   "field_id": "BA-03",
+   "crop": "blueberry",
+   "tier": "high",
+   "canopy_temp_f": 94.1,
+   "urgency": 82.0,
+   "threshold_f": 90.0,
+   "exceedance_hours": 5.1,
+   "recommended_action": "HARVEST_NOW",
+   "ts": "2025-07-15T17:58:00Z",
+   "acknowledged": false,
+   "sms": null,
+   "packing_house": {
+    "facility_id": "PH-BA-01",
+    "name": "Bacon/Appling Blueberry Packing",
+    "precool_slot": "2025-07-15T19:45:00Z",
+    "inbound_quantity": "9,900 lb",
+    "truck_id": "Reefer #088",
+    "cold_storage_lb": 300000
+   }
+  },
+  {
+   "field_id": "VD-08",
+   "crop": "onion",
+   "tier": "medium",
+   "canopy_temp_f": 88.9,
+   "urgency": 71.0,
+   "threshold_f": 85.0,
+   "exceedance_hours": 3.0,
+   "recommended_action": "MONITOR_CURING",
+   "ts": "2025-07-15T16:40:00Z",
+   "acknowledged": false,
+   "sms": null,
+   "packing_house": {
+    "facility_id": "PH-VD-01",
+    "name": "Vidalia Sweet Onion Co-op",
+    "precool_slot": "2025-07-15T18:30:00Z",
+    "inbound_quantity": "15,200 lb",
+    "truck_id": "Reefer #305",
+    "cold_storage_lb": 900000
+   }
+  },
+  {
+   "field_id": "PV-02",
+   "crop": "peach",
+   "tier": "high",
+   "canopy_temp_f": 97.8,
+   "urgency": 86.0,
+   "threshold_f": 95.0,
+   "exceedance_hours": 3.8,
+   "recommended_action": "PREPARE_HARVEST",
+   "ts": "2025-07-15T18:10:00Z",
+   "acknowledged": false,
+   "sms": null,
+   "packing_house": {
+    "facility_id": "PH-FV-01",
+    "name": "Fort Valley Peach Co-op",
+    "precool_slot": "2025-07-15T22:00:00Z",
+    "inbound_quantity": "7,300 lb",
+    "truck_id": "Reefer #206",
+    "cold_storage_lb": 480000
+   }
+  }
+ ],
+ "packing_houses": [
+  {
+   "facility_id": "PH-FV-01",
+   "name": "Fort Valley Peach Co-op",
+   "region": "fort_valley",
+   "crop": "peach",
+   "cold_storage_lb": 480000,
+   "precool_capacity_lb_h": 42000
+  },
+  {
+   "facility_id": "PH-AL-01",
+   "name": "Albany Pecan Growers",
+   "region": "albany",
+   "crop": "pecan",
+   "cold_storage_lb": 620000,
+   "precool_capacity_lb_h": 38000
+  },
+  {
+   "facility_id": "PH-VD-01",
+   "name": "Vidalia Sweet Onion Co-op",
+   "region": "vidalia",
+   "crop": "onion",
+   "cold_storage_lb": 900000,
+   "precool_capacity_lb_h": 51000
+  },
+  {
+   "facility_id": "PH-BA-01",
+   "name": "Bacon/Appling Blueberry Packing",
+   "region": "bacon_appling",
+   "crop": "blueberry",
+   "cold_storage_lb": 300000,
+   "precool_capacity_lb_h": 26000
+  },
+  {
+   "facility_id": "PH-SAV-01",
+   "name": "Port of Savannah Cold Storage",
+   "region": "savannah",
+   "crop": "mixed",
+   "cold_storage_lb": 2400000,
+   "precool_capacity_lb_h": 120000
+  }
+ ]
+}

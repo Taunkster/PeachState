@@ -1,0 +1,84 @@
+{
+ "kpis": [
+  {
+   "id": "spoilage",
+   "label": "Spoilage risk",
+   "value": "\u2193 23%",
+   "delta": "-23 pp vs I-75 baseline",
+   "direction": "down",
+   "spark": [
+    46,
+    43,
+    40,
+    36,
+    32,
+    27,
+    23
+   ],
+   "tone": "green"
+  },
+  {
+   "id": "savings",
+   "label": "Season savings",
+   "value": "$180K",
+   "delta": "+$180K vs baseline",
+   "direction": "up",
+   "spark": [
+    20,
+    60,
+    95,
+    125,
+    150,
+    168,
+    180
+   ],
+   "tone": "peach"
+  },
+  {
+   "id": "fuel",
+   "label": "Fuel savings",
+   "value": "12%",
+   "delta": "-12% fuel / season",
+   "direction": "down",
+   "spark": [
+    3,
+    5,
+    7,
+    9,
+    10,
+    11,
+    12
+   ],
+   "tone": "blue"
+  },
+  {
+   "id": "port",
+   "label": "Port on-time",
+   "value": "96%",
+   "delta": "+14 pp vs baseline",
+   "direction": "up",
+   "spark": [
+    82,
+    85,
+    89,
+    92,
+    94,
+    95,
+    96
+   ],
+   "tone": "green"
+  }
+ ],
+ "secondary": [
+  "Carbon \u219341 t CO\u2082e",
+  "45 fields protected",
+  "1,240 loads routed",
+  "5 packing houses synced"
+ ],
+ "detail": {
+  "spoilage": "Seasonal spoilage risk reduction from cooler-corridor routing (I-16 vs I-75) across 45 GA fields.",
+  "savings": "Modeled $180K seasonal value: reduced spoilage losses, fuel, and pre-cooling energy.",
+  "fuel": "Reefer fuel reduction from 142 mi shorter average route plus 7\u00b0F cooler coastal corridor.",
+  "port": "Port of Savannah on-time deliveries rose from 82% baseline to 96% with corridor routing + packing-house sync."
+ }
+}

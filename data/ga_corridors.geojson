@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "name": "Georgia cool corridors (I-75 inland vs I-16 coastal)",
+  "schema_version": 1,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "I16_coastal",
+      "properties": {"route": "I-16", "description": "Macon->Savannah coastal, +0 mi detour", "approx_mi": 176},
+      "geometry": {"type": "LineString", "coordinates": [
+        [-83.6324, 32.8407],
+        [-82.7360, 32.3510],
+        [-81.0912, 32.0809]
+      ]}
+    },
+    {
+      "type": "Feature",
+      "id": "I75_inland",
+      "properties": {"route": "I-75", "description": "Macon->Valdosta->Savannah inland, +12 mi detour", "approx_mi": 188},
+      "geometry": {"type": "LineString", "coordinates": [
+        [-83.6324, 32.8407],
+        [-83.2783, 30.8325],
+        [-81.0912, 32.0809]
+      ]}
+    }
+  ]
+}

@@ -1,0 +1,2882 @@
+[
+ {
+  "field_id": "AL-01",
+  "name": "Pecan Grove AL-01",
+  "crop": "pecan",
+  "region": "albany",
+  "region_label": "Albany / Dougherty County",
+  "area_acres": 329.3,
+  "packing_house_id": "PH-AL-01",
+  "center": [
+   31.568386166204014,
+   -84.2175276777279
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -84.22698705769822,
+      31.56276172519029
+     ],
+     [
+      -84.20641609295157,
+      31.568274853900334
+     ],
+     [
+      -84.20823647184096,
+      31.57401238880785
+     ],
+     [
+      -84.2285554173328,
+      31.568496442586465
+     ],
+     [
+      -84.22698705769822,
+      31.56276172519029
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 17.2,
+   "tier": "low",
+   "canopy_temp_f": 94.4,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 99.1,
+   "humidity_pct": 53.6,
+   "exceedance_hours": 0.95,
+   "persistence_forecast_hours": 2.44,
+   "components": {
+    "temp_score": 0.0,
+    "exceedance_score": 0.119,
+    "persistence_score": 0.407
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 663.7,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 78.1,
+   "stress_days": 6
+  }
+ },
+ {
+  "field_id": "AL-02",
+  "name": "Pecan Grove AL-02",
+  "crop": "pecan",
+  "region": "albany",
+  "region_label": "Albany / Dougherty County",
+  "area_acres": 220.1,
+  "packing_house_id": "PH-AL-02",
+  "center": [
+   31.570159062088653,
+   -84.18714312640905
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -84.17948875452451,
+      31.564642044603225
+     ],
+     [
+      -84.19118325210967,
+      31.57864940191848
+     ],
+     [
+      -84.19464091494423,
+      31.575142482989207
+     ],
+     [
+      -84.18294588477487,
+      31.56177238321525
+     ],
+     [
+      -84.17948875452451,
+      31.564642044603225
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 23.3,
+   "tier": "low",
+   "canopy_temp_f": 95.2,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 111.2,
+   "humidity_pct": 70.5,
+   "exceedance_hours": 1.44,
+   "persistence_forecast_hours": 2.66,
+   "components": {
+    "temp_score": 0.051,
+    "exceedance_score": 0.18,
+    "persistence_score": 0.443
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 768.4,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 90.4,
+   "stress_days": 8
+  }
+ },
+ {
+  "field_id": "AL-03",
+  "name": "Pecan Grove AL-03",
+  "crop": "pecan",
+  "region": "albany",
+  "region_label": "Albany / Dougherty County",
+  "area_acres": 106.9,
+  "packing_house_id": "PH-AL-03",
+  "center": [
+   31.562129221124096,
+   -84.152278598469
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -84.14742542458632,
+      31.563919406537526
+     ],
+     [
+      -84.15670984535691,
+      31.56474863149113
+     ],
+     [
+      -84.15714194856983,
+      31.560456593124783
+     ],
+     [
+      -84.14801389224063,
+      31.55938986630772
+     ],
+     [
+      -84.14742542458632,
+      31.563919406537526
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 23.7,
+   "tier": "low",
+   "canopy_temp_f": 96.1,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 105.2,
+   "humidity_pct": 61.0,
+   "exceedance_hours": 0.68,
+   "persistence_forecast_hours": 1.88,
+   "components": {
+    "temp_score": 0.223,
+    "exceedance_score": 0.085,
+    "persistence_score": 0.313
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 706.2,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 83.1,
+   "stress_days": 6
+  }
+ },
+ {
+  "field_id": "AL-04",
+  "name": "Pecan Grove AL-04",
+  "crop": "pecan",
+  "region": "albany",
+  "region_label": "Albany / Dougherty County",
+  "area_acres": 164.7,
+  "packing_house_id": "PH-AL-01",
+  "center": [
+   31.5606986520236,
+   -84.12321087352436
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -84.12828596865991,
+      31.555789783323547
+     ],
+     [
+      -84.11622968907737,
+      31.561232148722336
+     ],
+     [
+      -84.11795407923499,
+      31.56557583629861
+     ],
+     [
+      -84.13020695301549,
+      31.560252939372067
+     ],
+     [
+      -84.12828596865991,
+      31.555789783323547
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 13.2,
+   "tier": "low",
+   "canopy_temp_f": 94.7,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 98.9,
+   "humidity_pct": 54.6,
+   "exceedance_hours": 0.7,
+   "persistence_forecast_hours": 1.91,
+   "components": {
+    "temp_score": 0.0,
+    "exceedance_score": 0.087,
+    "persistence_score": 0.318
+   }
+  },
+  "harvest": {
+   "urgency": 96.2,
+   "window": "NOW",
+   "gdd_since_bloom": 604.8,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 71.2,
+   "stress_days": 5
+  }
+ },
+ {
+  "field_id": "AL-05",
+  "name": "Pecan Grove AL-05",
+  "crop": "pecan",
+  "region": "albany",
+  "region_label": "Albany / Dougherty County",
+  "area_acres": 247.5,
+  "packing_house_id": "PH-AL-02",
+  "center": [
+   31.56430721154854,
+   -84.09739687824383
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -84.10472709638027,
+      31.560910735602135
+     ],
+     [
+      -84.08977129042815,
+      31.561377373561886
+     ],
+     [
+      -84.08980045307861,
+      31.567494395895277
+     ],
+     [
+      -84.10497066744361,
+      31.56742324969313
+     ],
+     [
+      -84.10472709638027,
+      31.560910735602135
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 8.8,
+   "tier": "low",
+   "canopy_temp_f": 94.3,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 98.2,
+   "humidity_pct": 55.5,
+   "exceedance_hours": 0.55,
+   "persistence_forecast_hours": 1.19,
+   "components": {
+    "temp_score": 0.0,
+    "exceedance_score": 0.069,
+    "persistence_score": 0.198
+   }
+  },
+  "harvest": {
+   "urgency": 90.7,
+   "window": "NOW",
+   "gdd_since_bloom": 685.8,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 80.7,
+   "stress_days": 2
+  }
+ },
+ {
+  "field_id": "AL-06",
+  "name": "Pecan Grove AL-06",
+  "crop": "pecan",
+  "region": "albany",
+  "region_label": "Albany / Dougherty County",
+  "area_acres": 166.0,
+  "packing_house_id": "PH-AL-03",
+  "center": [
+   31.588036014144915,
+   -84.21776106983579
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -84.21136880461087,
+      31.585706348242184
+     ],
+     [
+      -84.22077893825836,
+      31.594124464466432
+     ],
+     [
+      -84.2241706542938,
+      31.59027126693303
+     ],
+     [
+      -84.21461532533314,
+      31.58195225984697
+     ],
+     [
+      -84.21136880461087,
+      31.585706348242184
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 23.9,
+   "tier": "low",
+   "canopy_temp_f": 96.0,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 111.7,
+   "humidity_pct": 69.0,
+   "exceedance_hours": 0.66,
+   "persistence_forecast_hours": 2.07,
+   "components": {
+    "temp_score": 0.211,
+    "exceedance_score": 0.083,
+    "persistence_score": 0.345
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 725.3,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 85.3,
+   "stress_days": 3
+  }
+ },
+ {
+  "field_id": "AL-07",
+  "name": "Pecan Grove AL-07",
+  "crop": "pecan",
+  "region": "albany",
+  "region_label": "Albany / Dougherty County",
+  "area_acres": 270.4,
+  "packing_house_id": "PH-AL-01",
+  "center": [
+   31.59220760497585,
+   -84.18574049133548
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -84.17792973588502,
+      31.586288255649908
+     ],
+     [
+      -84.18953420029719,
+      31.60175843876016
+     ],
+     [
+      -84.19349515183829,
+      31.598769967183667
+     ],
+     [
+      -84.18259493841111,
+      31.582832522018432
+     ],
+     [
+      -84.17792973588502,
+      31.586288255649908
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 14.6,
+   "tier": "low",
+   "canopy_temp_f": 95.4,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 101.3,
+   "humidity_pct": 55.5,
+   "exceedance_hours": 0.82,
+   "persistence_forecast_hours": 1.22,
+   "components": {
+    "temp_score": 0.088,
+    "exceedance_score": 0.102,
+    "persistence_score": 0.203
+   }
+  },
+  "harvest": {
+   "urgency": 91.5,
+   "window": "NOW",
+   "gdd_since_bloom": 650.3,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 76.5,
+   "stress_days": 3
+  }
+ },
+ {
+  "field_id": "AL-08",
+  "name": "Pecan Grove AL-08",
+  "crop": "pecan",
+  "region": "albany",
+  "region_label": "Albany / Dougherty County",
+  "area_acres": 85.4,
+  "packing_house_id": "PH-AL-02",
+  "center": [
+   31.58753341175401,
+   -84.16171458825765
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -84.15670262039835,
+      31.585499169269834
+     ],
+     [
+      -84.16462161240653,
+      31.591972070324744
+     ],
+     [
+      -84.16677872018876,
+      31.58956415398782
+     ],
+     [
+      -84.15866962371383,
+      31.583051376470742
+     ],
+     [
+      -84.15670262039835,
+      31.585499169269834
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 17.9,
+   "tier": "low",
+   "canopy_temp_f": 94.1,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 101.2,
+   "humidity_pct": 60.1,
+   "exceedance_hours": 1.71,
+   "persistence_forecast_hours": 1.78,
+   "components": {
+    "temp_score": 0.0,
+    "exceedance_score": 0.214,
+    "persistence_score": 0.297
+   }
+  },
+  "harvest": {
+   "urgency": 86.8,
+   "window": "07-14",
+   "gdd_since_bloom": 652.4,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 76.8,
+   "stress_days": 2
+  }
+ },
+ {
+  "field_id": "AL-09",
+  "name": "Pecan Grove AL-09",
+  "crop": "pecan",
+  "region": "albany",
+  "region_label": "Albany / Dougherty County",
+  "area_acres": 512.7,
+  "packing_house_id": "PH-AL-03",
+  "center": [
+   31.591697376041903,
+   -84.11562322486591
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -84.12497352266543,
+      31.582188140019827
+     ],
+     [
+      -84.10256166402648,
+      31.59448927337626
+     ],
+     [
+      -84.10618825208972,
+      31.60130208889327
+     ],
+     [
+      -84.12887165811375,
+      31.588710676503652
+     ],
+     [
+      -84.12497352266543,
+      31.582188140019827
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 18.9,
+   "tier": "low",
+   "canopy_temp_f": 95.3,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 109.5,
+   "humidity_pct": 70.0,
+   "exceedance_hours": 1.53,
+   "persistence_forecast_hours": 1.61,
+   "components": {
+    "temp_score": 0.059,
+    "exceedance_score": 0.191,
+    "persistence_score": 0.268
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 705.8,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 83.0,
+   "stress_days": 4
+  }
+ },
+ {
+  "field_id": "AL-10",
+  "name": "Pecan Grove AL-10",
+  "crop": "pecan",
+  "region": "albany",
+  "region_label": "Albany / Dougherty County",
+  "area_acres": 323.6,
+  "packing_house_id": "PH-AL-01",
+  "center": [
+   31.586735422620254,
+   -84.0922428568573
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -84.10099154128031,
+      31.58181329751263
+     ],
+     [
+      -84.08203518563425,
+      31.58533595654491
+     ],
+     [
+      -84.0837926666603,
+      31.59176276305817
+     ],
+     [
+      -84.10244137686125,
+      31.588001236235378
+     ],
+     [
+      -84.10099154128031,
+      31.58181329751263
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 23.5,
+   "tier": "low",
+   "canopy_temp_f": 96.4,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 109.0,
+   "humidity_pct": 65.2,
+   "exceedance_hours": 0.65,
+   "persistence_forecast_hours": 1.29,
+   "components": {
+    "temp_score": 0.284,
+    "exceedance_score": 0.081,
+    "persistence_score": 0.215
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 623.5,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 73.4,
+   "stress_days": 7
+  }
+ },
+ {
+  "field_id": "BA-01",
+  "name": "Blueberry Farm BA-01",
+  "crop": "blueberry",
+  "region": "bacon_appling",
+  "region_label": "Bacon / Appling Counties",
+  "area_acres": 88.7,
+  "packing_house_id": "PH-BA-01",
+  "center": [
+   31.532197587947355,
+   -82.48998619104759
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.49272620453914,
+      31.527148622093414
+     ],
+     [
+      -82.48500829271046,
+      31.53510620114245
+     ],
+     [
+      -82.4874862724253,
+      31.53715170239514
+     ],
+     [
+      -82.49489849344691,
+      31.529232452029373
+     ],
+     [
+      -82.49272620453914,
+      31.527148622093414
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 61.5,
+   "tier": "high",
+   "canopy_temp_f": 94.4,
+   "threshold_f": 90.0,
+   "critical_f": 95.0,
+   "heat_index_f": 98.8,
+   "humidity_pct": 67.8,
+   "exceedance_hours": 0.53,
+   "persistence_forecast_hours": 1.51,
+   "components": {
+    "temp_score": 0.885,
+    "exceedance_score": 0.066,
+    "persistence_score": 0.252
+   }
+  },
+  "harvest": {
+   "urgency": 93.6,
+   "window": "NOW",
+   "gdd_since_bloom": 583.3,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 68.6,
+   "stress_days": 5
+  }
+ },
+ {
+  "field_id": "BA-02",
+  "name": "Blueberry Farm BA-02",
+  "crop": "blueberry",
+  "region": "bacon_appling",
+  "region_label": "Bacon / Appling Counties",
+  "area_acres": 68.1,
+  "packing_house_id": "PH-BA-02",
+  "center": [
+   31.53519511778225,
+   -82.47451000069495
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.47866235249786,
+      31.5325862864245
+     ],
+     [
+      -82.46959500507698,
+      31.53511330312307
+     ],
+     [
+      -82.47044652541027,
+      31.537797151903753
+     ],
+     [
+      -82.47936118404752,
+      31.535292618969137
+     ],
+     [
+      -82.47866235249786,
+      31.5325862864245
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 68.8,
+   "tier": "high",
+   "canopy_temp_f": 95.0,
+   "threshold_f": 90.0,
+   "critical_f": 95.0,
+   "heat_index_f": 100.4,
+   "humidity_pct": 69.8,
+   "exceedance_hours": 0.43,
+   "persistence_forecast_hours": 1.87,
+   "components": {
+    "temp_score": 0.99,
+    "exceedance_score": 0.054,
+    "persistence_score": 0.312
+   }
+  },
+  "harvest": {
+   "urgency": 84.1,
+   "window": "07-14",
+   "gdd_since_bloom": 502.7,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 59.1,
+   "stress_days": 5
+  }
+ },
+ {
+  "field_id": "BA-03",
+  "name": "Blueberry Farm BA-03",
+  "crop": "blueberry",
+  "region": "bacon_appling",
+  "region_label": "Bacon / Appling Counties",
+  "area_acres": 31.3,
+  "packing_house_id": "PH-BA-01",
+  "center": [
+   31.532730651324943,
+   -82.45839429514213
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.46020840776684,
+      31.53043573093376
+     ],
+     [
+      -82.45555512812129,
+      31.53300931614604
+     ],
+     [
+      -82.45658097799908,
+      31.535026052675516
+     ],
+     [
+      -82.46123378311717,
+      31.532450836553426
+     ],
+     [
+      -82.46020840776684,
+      31.53043573093376
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 75.1,
+   "tier": "critical",
+   "canopy_temp_f": 96.1,
+   "threshold_f": 90.0,
+   "critical_f": 95.0,
+   "heat_index_f": 96.1,
+   "humidity_pct": 60.9,
+   "exceedance_hours": 1.32,
+   "persistence_forecast_hours": 2.3,
+   "components": {
+    "temp_score": 1.0,
+    "exceedance_score": 0.165,
+    "persistence_score": 0.383
+   }
+  },
+  "harvest": {
+   "urgency": 90.6,
+   "window": "NOW",
+   "gdd_since_bloom": 515.3,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 60.6,
+   "stress_days": 6
+  }
+ },
+ {
+  "field_id": "BA-04",
+  "name": "Blueberry Farm BA-04",
+  "crop": "blueberry",
+  "region": "bacon_appling",
+  "region_label": "Bacon / Appling Counties",
+  "area_acres": 33.7,
+  "packing_house_id": "PH-BA-02",
+  "center": [
+   31.529776029590362,
+   -82.44108452042538
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.4384096566798,
+      31.528575074697965
+     ],
+     [
+      -82.44187551685361,
+      31.532556106788125
+     ],
+     [
+      -82.44376625055571,
+      31.53090895024619
+     ],
+     [
+      -82.44024384005388,
+      31.52700981799314
+     ],
+     [
+      -82.4384096566798,
+      31.528575074697965
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 54.2,
+   "tier": "medium",
+   "canopy_temp_f": 93.4,
+   "threshold_f": 90.0,
+   "critical_f": 95.0,
+   "heat_index_f": 96.8,
+   "humidity_pct": 69.2,
+   "exceedance_hours": 1.49,
+   "persistence_forecast_hours": 1.57,
+   "components": {
+    "temp_score": 0.687,
+    "exceedance_score": 0.186,
+    "persistence_score": 0.262
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 716.0,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 84.2,
+   "stress_days": 8
+  }
+ },
+ {
+  "field_id": "BA-05",
+  "name": "Blueberry Farm BA-05",
+  "crop": "blueberry",
+  "region": "bacon_appling",
+  "region_label": "Bacon / Appling Counties",
+  "area_acres": 57.5,
+  "packing_house_id": "PH-BA-01",
+  "center": [
+   31.545540338468555,
+   -82.48509536527047
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.4809050525805,
+      31.54667259454527
+     ],
+     [
+      -82.48911568538492,
+      31.547090296861168
+     ],
+     [
+      -82.48933066802824,
+      31.544453805536275
+     ],
+     [
+      -82.48111673556099,
+      31.543950616005954
+     ],
+     [
+      -82.4809050525805,
+      31.54667259454527
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 64.0,
+   "tier": "high",
+   "canopy_temp_f": 94.1,
+   "threshold_f": 90.0,
+   "critical_f": 95.0,
+   "heat_index_f": 95.8,
+   "humidity_pct": 68.1,
+   "exceedance_hours": 1.02,
+   "persistence_forecast_hours": 2.61,
+   "components": {
+    "temp_score": 0.817,
+    "exceedance_score": 0.128,
+    "persistence_score": 0.435
+   }
+  },
+  "harvest": {
+   "urgency": 89.8,
+   "window": "NOW",
+   "gdd_since_bloom": 507.9,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 59.8,
+   "stress_days": 6
+  }
+ },
+ {
+  "field_id": "BA-06",
+  "name": "Blueberry Farm BA-06",
+  "crop": "blueberry",
+  "region": "bacon_appling",
+  "region_label": "Bacon / Appling Counties",
+  "area_acres": 32.2,
+  "packing_house_id": "PH-BA-02",
+  "center": [
+   31.547610013227498,
+   -82.47455466597435
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.47686029448951,
+      31.545850233181618
+     ],
+     [
+      -82.47160291209987,
+      31.54718012501601
+     ],
+     [
+      -82.47230426859846,
+      31.549421376696166
+     ],
+     [
+      -82.47755158670921,
+      31.54795706077551
+     ],
+     [
+      -82.47686029448951,
+      31.545850233181618
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 59.7,
+   "tier": "medium",
+   "canopy_temp_f": 93.8,
+   "threshold_f": 90.0,
+   "critical_f": 95.0,
+   "heat_index_f": 94.9,
+   "humidity_pct": 63.3,
+   "exceedance_hours": 0.95,
+   "persistence_forecast_hours": 2.56,
+   "components": {
+    "temp_score": 0.753,
+    "exceedance_score": 0.119,
+    "persistence_score": 0.427
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 722.0,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 84.9,
+   "stress_days": 7
+  }
+ },
+ {
+  "field_id": "BA-07",
+  "name": "Blueberry Farm BA-07",
+  "crop": "blueberry",
+  "region": "bacon_appling",
+  "region_label": "Bacon / Appling Counties",
+  "area_acres": 96.9,
+  "packing_house_id": "PH-BA-01",
+  "center": [
+   31.544823753613795,
+   -82.45625354985604
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.45381155419555,
+      31.539327039323034
+     ],
+     [
+      -82.45551894731865,
+      31.55076275684075
+     ],
+     [
+      -82.45875577065107,
+      31.550300555050324
+     ],
+     [
+      -82.45688865141777,
+      31.538740701665137
+     ],
+     [
+      -82.45381155419555,
+      31.539327039323034
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 72.3,
+   "tier": "high",
+   "canopy_temp_f": 95.0,
+   "threshold_f": 90.0,
+   "critical_f": 95.0,
+   "heat_index_f": 96.1,
+   "humidity_pct": 68.3,
+   "exceedance_hours": 1.4,
+   "persistence_forecast_hours": 1.63,
+   "components": {
+    "temp_score": 0.992,
+    "exceedance_score": 0.175,
+    "persistence_score": 0.272
+   }
+  },
+  "harvest": {
+   "urgency": 69.8,
+   "window": "07-16",
+   "gdd_since_bloom": 507.9,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 59.8,
+   "stress_days": 2
+  }
+ },
+ {
+  "field_id": "BA-08",
+  "name": "Blueberry Farm BA-08",
+  "crop": "blueberry",
+  "region": "bacon_appling",
+  "region_label": "Bacon / Appling Counties",
+  "area_acres": 10.7,
+  "packing_house_id": "PH-BA-02",
+  "center": [
+   31.54620047512046,
+   -82.44209737454587
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.44343130318003,
+      31.545116810435584
+     ],
+     [
+      -82.4404159676972,
+      31.546029598485813
+     ],
+     [
+      -82.44074172854953,
+      31.5472677390265
+     ],
+     [
+      -82.44376653430598,
+      31.54639803047932
+     ],
+     [
+      -82.44343130318003,
+      31.545116810435584
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 68.5,
+   "tier": "high",
+   "canopy_temp_f": 96.0,
+   "threshold_f": 90.0,
+   "critical_f": 95.0,
+   "heat_index_f": 98.4,
+   "humidity_pct": 64.1,
+   "exceedance_hours": 0.61,
+   "persistence_forecast_hours": 1.45,
+   "components": {
+    "temp_score": 1.0,
+    "exceedance_score": 0.076,
+    "persistence_score": 0.242
+   }
+  },
+  "harvest": {
+   "urgency": 90.3,
+   "window": "NOW",
+   "gdd_since_bloom": 512.5,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 60.3,
+   "stress_days": 6
+  }
+ },
+ {
+  "field_id": "PV-01",
+  "name": "Peach Orchard PV-01",
+  "crop": "peach",
+  "region": "fort_valley",
+  "region_label": "Fort Valley / Peach County",
+  "area_acres": 138.7,
+  "packing_house_id": "PH-FV-01",
+  "center": [
+   32.53173893505313,
+   -83.93395920410701
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -83.9309146753847,
+      32.526553469594006
+     ],
+     [
+      -83.93208087765848,
+      32.53742373816685
+     ],
+     [
+      -83.93697087842762,
+      32.53688665720024
+     ],
+     [
+      -83.93589734571474,
+      32.52614703280315
+     ],
+     [
+      -83.9309146753847,
+      32.526553469594006
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 55.2,
+   "tier": "medium",
+   "canopy_temp_f": 99.2,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 109.0,
+   "humidity_pct": 61.3,
+   "exceedance_hours": 0.87,
+   "persistence_forecast_hours": 1.19,
+   "components": {
+    "temp_score": 0.85,
+    "exceedance_score": 0.109,
+    "persistence_score": 0.198
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 643.1,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 75.7,
+   "stress_days": 7
+  }
+ },
+ {
+  "field_id": "PV-02",
+  "name": "Peach Orchard PV-02",
+  "crop": "peach",
+  "region": "fort_valley",
+  "region_label": "Fort Valley / Peach County",
+  "area_acres": 59.8,
+  "packing_house_id": "PH-FV-02",
+  "center": [
+   32.531598082043566,
+   -83.90649427212055
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -83.90207381387869,
+      32.53228360093703
+     ],
+     [
+      -83.91046221084177,
+      32.53361477340681
+     ],
+     [
+      -83.91093854542812,
+      32.530977015847725
+     ],
+     [
+      -83.90263114276243,
+      32.529531961266166
+     ],
+     [
+      -83.90207381387869,
+      32.53228360093703
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 55.8,
+   "tier": "medium",
+   "canopy_temp_f": 98.7,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 110.9,
+   "humidity_pct": 63.1,
+   "exceedance_hours": 1.2,
+   "persistence_forecast_hours": 2.47,
+   "components": {
+    "temp_score": 0.733,
+    "exceedance_score": 0.15,
+    "persistence_score": 0.412
+   }
+  },
+  "harvest": {
+   "urgency": 96.9,
+   "window": "NOW",
+   "gdd_since_bloom": 738.8,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 86.9,
+   "stress_days": 2
+  }
+ },
+ {
+  "field_id": "PV-03",
+  "name": "Peach Orchard PV-03",
+  "crop": "peach",
+  "region": "fort_valley",
+  "region_label": "Fort Valley / Peach County",
+  "area_acres": 52.0,
+  "packing_house_id": "PH-FV-03",
+  "center": [
+   32.53740525944191,
+   -83.88933556695841
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -83.88647039108017,
+      32.53440611324958
+     ],
+     [
+      -83.88990231167993,
+      32.54150240594216
+     ],
+     [
+      -83.89220405721404,
+      32.54054068304647
+     ],
+     [
+      -83.8887935159164,
+      32.53326816758277
+     ],
+     [
+      -83.88647039108017,
+      32.53440611324958
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 45.9,
+   "tier": "medium",
+   "canopy_temp_f": 97.8,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 102.0,
+   "humidity_pct": 55.0,
+   "exceedance_hours": 1.65,
+   "persistence_forecast_hours": 1.66,
+   "components": {
+    "temp_score": 0.567,
+    "exceedance_score": 0.206,
+    "persistence_score": 0.277
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 787.0,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 92.6,
+   "stress_days": 2
+  }
+ },
+ {
+  "field_id": "PV-04",
+  "name": "Peach Orchard PV-04",
+  "crop": "peach",
+  "region": "fort_valley",
+  "region_label": "Fort Valley / Peach County",
+  "area_acres": 73.7,
+  "packing_house_id": "PH-FV-01",
+  "center": [
+   32.53443965245068,
+   -83.864168084085
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -83.86015904992954,
+      32.531248591987435
+     ],
+     [
+      -83.86590549743033,
+      32.53938690659245
+     ],
+     [
+      -83.86820128686178,
+      32.53755344207869
+     ],
+     [
+      -83.86230946237745,
+      32.529445484047685
+     ],
+     [
+      -83.86015904992954,
+      32.531248591987435
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 36.6,
+   "tier": "low",
+   "canopy_temp_f": 97.0,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 109.7,
+   "humidity_pct": 66.9,
+   "exceedance_hours": 1.39,
+   "persistence_forecast_hours": 1.98,
+   "components": {
+    "temp_score": 0.396,
+    "exceedance_score": 0.174,
+    "persistence_score": 0.33
+   }
+  },
+  "harvest": {
+   "urgency": 92.7,
+   "window": "NOW",
+   "gdd_since_bloom": 660.8,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 77.7,
+   "stress_days": 3
+  }
+ },
+ {
+  "field_id": "PV-05",
+  "name": "Peach Orchard PV-05",
+  "crop": "peach",
+  "region": "fort_valley",
+  "region_label": "Fort Valley / Peach County",
+  "area_acres": 46.7,
+  "packing_house_id": "PH-FV-02",
+  "center": [
+   32.53700194949852,
+   -83.84343396154095
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -83.84690052700476,
+      32.5353113387834
+     ],
+     [
+      -83.8396226989687,
+      32.53623742043077
+     ],
+     [
+      -83.83999284867274,
+      32.53869503769405
+     ],
+     [
+      -83.84722675530003,
+      32.537768052774474
+     ],
+     [
+      -83.84690052700476,
+      32.5353113387834
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 60.1,
+   "tier": "high",
+   "canopy_temp_f": 98.9,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 106.5,
+   "humidity_pct": 59.2,
+   "exceedance_hours": 1.45,
+   "persistence_forecast_hours": 2.66,
+   "components": {
+    "temp_score": 0.774,
+    "exceedance_score": 0.181,
+    "persistence_score": 0.443
+   }
+  },
+  "harvest": {
+   "urgency": 86.3,
+   "window": "07-14",
+   "gdd_since_bloom": 606.3,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 71.3,
+   "stress_days": 3
+  }
+ },
+ {
+  "field_id": "PV-06",
+  "name": "Peach Orchard PV-06",
+  "crop": "peach",
+  "region": "fort_valley",
+  "region_label": "Fort Valley / Peach County",
+  "area_acres": 187.8,
+  "packing_house_id": "PH-FV-03",
+  "center": [
+   32.55675038644461,
+   -83.93262082180057
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -83.92698768186008,
+      32.55158739728012
+     ],
+     [
+      -83.93394232309457,
+      32.564466638829416
+     ],
+     [
+      -83.93825426533301,
+      32.56168878957426
+     ],
+     [
+      -83.93122802060418,
+      32.54908263711498
+     ],
+     [
+      -83.92698768186008,
+      32.55158739728012
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 63.5,
+   "tier": "high",
+   "canopy_temp_f": 100.0,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 119.2,
+   "humidity_pct": 71.3,
+   "exceedance_hours": 0.93,
+   "persistence_forecast_hours": 1.22,
+   "components": {
+    "temp_score": 0.995,
+    "exceedance_score": 0.116,
+    "persistence_score": 0.203
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 800.2,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 94.1,
+   "stress_days": 6
+  }
+ },
+ {
+  "field_id": "PV-07",
+  "name": "Peach Orchard PV-07",
+  "crop": "peach",
+  "region": "fort_valley",
+  "region_label": "Fort Valley / Peach County",
+  "area_acres": 50.3,
+  "packing_house_id": "PH-FV-01",
+  "center": [
+   32.55343109785374,
+   -83.91450120208354
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -83.91744942443471,
+      32.55134435724025
+     ],
+     [
+      -83.91097553053497,
+      32.55264491550086
+     ],
+     [
+      -83.911340114532,
+      32.55543161800584
+     ],
+     [
+      -83.91807255410549,
+      32.5543010349272
+     ],
+     [
+      -83.91744942443471,
+      32.55134435724025
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 91.0,
+   "tier": "critical",
+   "canopy_temp_f": 98.2,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 112.0,
+   "humidity_pct": 71.0,
+   "exceedance_hours": 3.4,
+   "persistence_forecast_hours": 6.0,
+   "components": {
+    "temp_score": 0.634,
+    "exceedance_score": 0.425,
+    "persistence_score": 1.0
+   }
+  },
+  "harvest": {
+   "urgency": 93.1,
+   "window": "NOW",
+   "gdd_since_bloom": 706.2,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 83.1,
+   "stress_days": 2
+  }
+ },
+ {
+  "field_id": "PV-08",
+  "name": "Peach Orchard PV-08",
+  "crop": "peach",
+  "region": "fort_valley",
+  "region_label": "Fort Valley / Peach County",
+  "area_acres": 180.6,
+  "packing_house_id": "PH-FV-02",
+  "center": [
+   32.55651444912075,
+   -83.88364123966186
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -83.88295624297089,
+      32.549537345790036
+     ],
+     [
+      -83.87917011652249,
+      32.56205874844212
+     ],
+     [
+      -83.88451874703183,
+      32.56344656861489
+     ],
+     [
+      -83.88798629782586,
+      32.550727279932595
+     ],
+     [
+      -83.88295624297089,
+      32.549537345790036
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 45.6,
+   "tier": "medium",
+   "canopy_temp_f": 98.1,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 110.1,
+   "humidity_pct": 64.0,
+   "exceedance_hours": 1.0,
+   "persistence_forecast_hours": 1.81,
+   "components": {
+    "temp_score": 0.612,
+    "exceedance_score": 0.125,
+    "persistence_score": 0.302
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 796.8,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 93.7,
+   "stress_days": 4
+  }
+ },
+ {
+  "field_id": "PV-09",
+  "name": "Peach Orchard PV-09",
+  "crop": "peach",
+  "region": "fort_valley",
+  "region_label": "Fort Valley / Peach County",
+  "area_acres": 21.3,
+  "packing_house_id": "PH-FV-03",
+  "center": [
+   32.551842695208975,
+   -83.864150735639
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -83.86430552165862,
+      32.549356167229135
+     ],
+     [
+      -83.86238297726325,
+      32.55366562423903
+     ],
+     [
+      -83.8639480549915,
+      32.55436396798415
+     ],
+     [
+      -83.86594079436746,
+      32.550025466292034
+     ],
+     [
+      -83.86430552165862,
+      32.549356167229135
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 41.8,
+   "tier": "medium",
+   "canopy_temp_f": 98.2,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 107.6,
+   "humidity_pct": 62.6,
+   "exceedance_hours": 0.63,
+   "persistence_forecast_hours": 1.08,
+   "components": {
+    "temp_score": 0.632,
+    "exceedance_score": 0.079,
+    "persistence_score": 0.18
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 629.7,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 74.1,
+   "stress_days": 7
+  }
+ },
+ {
+  "field_id": "PV-10",
+  "name": "Peach Orchard PV-10",
+  "crop": "peach",
+  "region": "fort_valley",
+  "region_label": "Fort Valley / Peach County",
+  "area_acres": 159.3,
+  "packing_house_id": "PH-FV-01",
+  "center": [
+   32.55685429729352,
+   -83.8400246149535
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -83.83985411803155,
+      32.54991787784246
+     ],
+     [
+      -83.83572477047802,
+      32.56232847902179
+     ],
+     [
+      -83.84021962741515,
+      32.56386315868199
+     ],
+     [
+      -83.84430823791892,
+      32.55119266599884
+     ],
+     [
+      -83.83985411803155,
+      32.54991787784246
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 47.1,
+   "tier": "medium",
+   "canopy_temp_f": 97.8,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 106.2,
+   "humidity_pct": 61.4,
+   "exceedance_hours": 1.22,
+   "persistence_forecast_hours": 2.69,
+   "components": {
+    "temp_score": 0.555,
+    "exceedance_score": 0.152,
+    "persistence_score": 0.448
+   }
+  },
+  "harvest": {
+   "urgency": 75.3,
+   "window": "07-16",
+   "gdd_since_bloom": 470.3,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 55.3,
+   "stress_days": 4
+  }
+ },
+ {
+  "field_id": "PV-11",
+  "name": "Peach Orchard PV-11",
+  "crop": "peach",
+  "region": "fort_valley",
+  "region_label": "Fort Valley / Peach County",
+  "area_acres": 38.7,
+  "packing_house_id": "PH-FV-02",
+  "center": [
+   32.56988725078212,
+   -83.93712014552258
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -83.9400850076052,
+      32.568476069793135
+     ],
+     [
+      -83.93388889435398,
+      32.568918579654095
+     ],
+     [
+      -83.93403247547404,
+      32.57127512690579
+     ],
+     [
+      -83.94043855077906,
+      32.57085566593608
+     ],
+     [
+      -83.9400850076052,
+      32.568476069793135
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 48.8,
+   "tier": "medium",
+   "canopy_temp_f": 98.7,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 111.1,
+   "humidity_pct": 65.5,
+   "exceedance_hours": 0.66,
+   "persistence_forecast_hours": 1.25,
+   "components": {
+    "temp_score": 0.746,
+    "exceedance_score": 0.083,
+    "persistence_score": 0.208
+   }
+  },
+  "harvest": {
+   "urgency": 80.2,
+   "window": "07-14",
+   "gdd_since_bloom": 596.8,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 70.2,
+   "stress_days": 2
+  }
+ },
+ {
+  "field_id": "PV-12",
+  "name": "Peach Orchard PV-12",
+  "crop": "peach",
+  "region": "fort_valley",
+  "region_label": "Fort Valley / Peach County",
+  "area_acres": 111.7,
+  "packing_house_id": "PH-FV-03",
+  "center": [
+   32.57248231187182,
+   -83.90487593118463
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -83.90892484050235,
+      32.56885390052012
+     ],
+     [
+      -83.89949991225939,
+      32.57188699918979
+     ],
+     [
+      -83.90118213307886,
+      32.57623545765138
+     ],
+     [
+      -83.91020540468406,
+      32.57289035798924
+     ],
+     [
+      -83.90892484050235,
+      32.56885390052012
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 40.5,
+   "tier": "medium",
+   "canopy_temp_f": 97.7,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 111.6,
+   "humidity_pct": 66.0,
+   "exceedance_hours": 0.61,
+   "persistence_forecast_hours": 2.14,
+   "components": {
+    "temp_score": 0.533,
+    "exceedance_score": 0.076,
+    "persistence_score": 0.357
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 787.5,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 92.6,
+   "stress_days": 3
+  }
+ },
+ {
+  "field_id": "PV-13",
+  "name": "Peach Orchard PV-13",
+  "crop": "peach",
+  "region": "fort_valley",
+  "region_label": "Fort Valley / Peach County",
+  "area_acres": 113.1,
+  "packing_house_id": "PH-FV-01",
+  "center": [
+   32.568775806863954,
+   -83.88688949280682
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -83.88030079332553,
+      32.56765328687585
+     ],
+     [
+      -83.89218514128626,
+      32.57301933533762
+     ],
+     [
+      -83.89349589268556,
+      32.56996867367852
+     ],
+     [
+      -83.88171692570276,
+      32.56452025543748
+     ],
+     [
+      -83.88030079332553,
+      32.56765328687585
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 50.9,
+   "tier": "medium",
+   "canopy_temp_f": 98.1,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 107.4,
+   "humidity_pct": 62.8,
+   "exceedance_hours": 1.69,
+   "persistence_forecast_hours": 2.14,
+   "components": {
+    "temp_score": 0.62,
+    "exceedance_score": 0.211,
+    "persistence_score": 0.357
+   }
+  },
+  "harvest": {
+   "urgency": 95.6,
+   "window": "NOW",
+   "gdd_since_bloom": 600.1,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 70.6,
+   "stress_days": 5
+  }
+ },
+ {
+  "field_id": "PV-14",
+  "name": "Peach Orchard PV-14",
+  "crop": "peach",
+  "region": "fort_valley",
+  "region_label": "Fort Valley / Peach County",
+  "area_acres": 207.7,
+  "packing_house_id": "PH-FV-02",
+  "center": [
+   32.57532610615749,
+   -83.8677536176192
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -83.85951194947197,
+      32.57268418203621
+     ],
+     [
+      -83.8732885799275,
+      32.58203214576089
+     ],
+     [
+      -83.87590446225654,
+      32.578019286317215
+     ],
+     [
+      -83.86253267876488,
+      32.568681860850404
+     ],
+     [
+      -83.85951194947197,
+      32.57268418203621
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 42.5,
+   "tier": "medium",
+   "canopy_temp_f": 97.5,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 113.6,
+   "humidity_pct": 69.2,
+   "exceedance_hours": 1.37,
+   "persistence_forecast_hours": 1.95,
+   "components": {
+    "temp_score": 0.509,
+    "exceedance_score": 0.171,
+    "persistence_score": 0.325
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 717.8,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 84.4,
+   "stress_days": 5
+  }
+ },
+ {
+  "field_id": "PV-15",
+  "name": "Peach Orchard PV-15",
+  "crop": "peach",
+  "region": "fort_valley",
+  "region_label": "Fort Valley / Peach County",
+  "area_acres": 198.4,
+  "packing_house_id": "PH-FV-03",
+  "center": [
+   32.57440054512847,
+   -83.8449924848406
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -83.83709190367797,
+      32.57565815526305
+     ],
+     [
+      -83.85175087580373,
+      32.578235681778004
+     ],
+     [
+      -83.8528239559057,
+      32.57320518343036
+     ],
+     [
+      -83.83847685491371,
+      32.570501820382795
+     ],
+     [
+      -83.83709190367797,
+      32.57565815526305
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 32.8,
+   "tier": "low",
+   "canopy_temp_f": 97.5,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 111.4,
+   "humidity_pct": 66.2,
+   "exceedance_hours": 0.46,
+   "persistence_forecast_hours": 0.87,
+   "components": {
+    "temp_score": 0.499,
+    "exceedance_score": 0.058,
+    "persistence_score": 0.145
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 687.8,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 80.9,
+   "stress_days": 5
+  }
+ },
+ {
+  "field_id": "VD-01",
+  "name": "Onion Field VD-01",
+  "crop": "onion",
+  "region": "vidalia",
+  "region_label": "Vidalia / Toombs County",
+  "area_acres": 74.3,
+  "packing_house_id": "PH-VD-01",
+  "center": [
+   32.20709593295438,
+   -82.43318359072279
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.43401474296451,
+      32.20242926339566
+     ],
+     [
+      -82.4295681496876,
+      32.209996133469375
+     ],
+     [
+      -82.43247322034654,
+      32.211687883973326
+     ],
+     [
+      -82.43674525979098,
+      32.204193337189054
+     ],
+     [
+      -82.43401474296451,
+      32.20242926339566
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 74.2,
+   "tier": "high",
+   "canopy_temp_f": 93.1,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 98.1,
+   "humidity_pct": 57.3,
+   "exceedance_hours": 0.78,
+   "persistence_forecast_hours": 1.56,
+   "components": {
+    "temp_score": 1.0,
+    "exceedance_score": 0.098,
+    "persistence_score": 0.26
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 785.8,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 92.4,
+   "stress_days": 4
+  }
+ },
+ {
+  "field_id": "VD-02",
+  "name": "Onion Field VD-02",
+  "crop": "onion",
+  "region": "vidalia",
+  "region_label": "Vidalia / Toombs County",
+  "area_acres": 15.6,
+  "packing_house_id": "PH-VD-02",
+  "center": [
+   32.207559699225605,
+   -82.41894188221134
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.41819862750378,
+      32.20549356724949
+     ],
+     [
+      -82.41825768979771,
+      32.20968658053195
+     ],
+     [
+      -82.41966719783579,
+      32.20967831793617
+     ],
+     [
+      -82.41963584914636,
+      32.20540886837468
+     ],
+     [
+      -82.41819862750378,
+      32.20549356724949
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 75.8,
+   "tier": "critical",
+   "canopy_temp_f": 92.1,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 93.5,
+   "humidity_pct": 53.0,
+   "exceedance_hours": 1.11,
+   "persistence_forecast_hours": 1.6,
+   "components": {
+    "temp_score": 1.0,
+    "exceedance_score": 0.139,
+    "persistence_score": 0.267
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 780.8,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 91.9,
+   "stress_days": 2
+  }
+ },
+ {
+  "field_id": "VD-03",
+  "name": "Onion Field VD-03",
+  "crop": "onion",
+  "region": "vidalia",
+  "region_label": "Vidalia / Toombs County",
+  "area_acres": 32.7,
+  "packing_house_id": "PH-VD-03",
+  "center": [
+   32.204063286629676,
+   -82.4094478596852
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.40653466034064,
+      32.203768487698724
+     ],
+     [
+      -82.4111642196349,
+      32.20641164203727
+     ],
+     [
+      -82.41234645473682,
+      32.20425287885649
+     ],
+     [
+      -82.40763438399063,
+      32.20175883173646
+     ],
+     [
+      -82.40653466034064,
+      32.203768487698724
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 74.9,
+   "tier": "high",
+   "canopy_temp_f": 93.4,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 96.1,
+   "humidity_pct": 54.0,
+   "exceedance_hours": 0.66,
+   "persistence_forecast_hours": 1.99,
+   "components": {
+    "temp_score": 1.0,
+    "exceedance_score": 0.083,
+    "persistence_score": 0.332
+   }
+  },
+  "harvest": {
+   "urgency": 85.5,
+   "window": "07-16",
+   "gdd_since_bloom": 472.1,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 55.5,
+   "stress_days": 7
+  }
+ },
+ {
+  "field_id": "VD-04",
+  "name": "Onion Field VD-04",
+  "crop": "onion",
+  "region": "vidalia",
+  "region_label": "Vidalia / Toombs County",
+  "area_acres": 53.9,
+  "packing_house_id": "PH-VD-01",
+  "center": [
+   32.20615954399998,
+   -82.39283211283505
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.38939365598877,
+      32.20454337998436
+     ],
+     [
+      -82.39403011569301,
+      32.209747434421764
+     ],
+     [
+      -82.39631731989155,
+      32.20766130343387
+     ],
+     [
+      -82.39145378423684,
+      32.20255817651887
+     ],
+     [
+      -82.38939365598877,
+      32.20454337998436
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 80.0,
+   "tier": "critical",
+   "canopy_temp_f": 93.0,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 100.6,
+   "humidity_pct": 65.8,
+   "exceedance_hours": 1.58,
+   "persistence_forecast_hours": 2.29,
+   "components": {
+    "temp_score": 1.0,
+    "exceedance_score": 0.198,
+    "persistence_score": 0.382
+   }
+  },
+  "harvest": {
+   "urgency": 99.9,
+   "window": "NOW",
+   "gdd_since_bloom": 594.2,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 69.9,
+   "stress_days": 6
+  }
+ },
+ {
+  "field_id": "VD-05",
+  "name": "Onion Field VD-05",
+  "crop": "onion",
+  "region": "vidalia",
+  "region_label": "Vidalia / Toombs County",
+  "area_acres": 55.6,
+  "packing_house_id": "PH-VD-02",
+  "center": [
+   32.21748021045608,
+   -82.43489490258247
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.43215259335408,
+      32.21395373740115
+     ],
+     [
+      -82.43535780280659,
+      32.22200776019992
+     ],
+     [
+      -82.43759173567949,
+      32.221103182436046
+     ],
+     [
+      -82.4345469645383,
+      32.21302563463315
+     ],
+     [
+      -82.43215259335408,
+      32.21395373740115
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 79.8,
+   "tier": "critical",
+   "canopy_temp_f": 94.1,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 107.0,
+   "humidity_pct": 71.8,
+   "exceedance_hours": 1.43,
+   "persistence_forecast_hours": 2.47,
+   "components": {
+    "temp_score": 1.0,
+    "exceedance_score": 0.179,
+    "persistence_score": 0.412
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 811.4,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 95.5,
+   "stress_days": 6
+  }
+ },
+ {
+  "field_id": "VD-06",
+  "name": "Onion Field VD-06",
+  "crop": "onion",
+  "region": "vidalia",
+  "region_label": "Vidalia / Toombs County",
+  "area_acres": 55.4,
+  "packing_house_id": "PH-VD-03",
+  "center": [
+   32.21656047504483,
+   -82.42313449473816
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.41983146440677,
+      32.21362027006461
+     ],
+     [
+      -82.42417650731659,
+      32.22073335774967
+     ],
+     [
+      -82.42645129926092,
+      32.21947189599963
+     ],
+     [
+      -82.42204473117289,
+      32.21236586257464
+     ],
+     [
+      -82.41983146440677,
+      32.21362027006461
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 70.9,
+   "tier": "high",
+   "canopy_temp_f": 94.0,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 106.8,
+   "humidity_pct": 70.9,
+   "exceedance_hours": 0.42,
+   "persistence_forecast_hours": 1.01,
+   "components": {
+    "temp_score": 1.0,
+    "exceedance_score": 0.052,
+    "persistence_score": 0.168
+   }
+  },
+  "harvest": {
+   "urgency": 94.6,
+   "window": "NOW",
+   "gdd_since_bloom": 634.2,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 74.6,
+   "stress_days": 4
+  }
+ },
+ {
+  "field_id": "VD-07",
+  "name": "Onion Field VD-07",
+  "crop": "onion",
+  "region": "vidalia",
+  "region_label": "Vidalia / Toombs County",
+  "area_acres": 39.9,
+  "packing_house_id": "PH-VD-01",
+  "center": [
+   32.21522225582758,
+   -82.40402508841956
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.40023212623672,
+      32.215847445586334
+     ],
+     [
+      -82.40752226426969,
+      32.216689449132986
+     ],
+     [
+      -82.40773247098478,
+      32.21453543165489
+     ],
+     [
+      -82.40050329283079,
+      32.213797671489154
+     ],
+     [
+      -82.40023212623672,
+      32.215847445586334
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 74.7,
+   "tier": "high",
+   "canopy_temp_f": 93.8,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 102.2,
+   "humidity_pct": 64.6,
+   "exceedance_hours": 0.96,
+   "persistence_forecast_hours": 1.45,
+   "components": {
+    "temp_score": 1.0,
+    "exceedance_score": 0.12,
+    "persistence_score": 0.242
+   }
+  },
+  "harvest": {
+   "urgency": 88.9,
+   "window": "NOW",
+   "gdd_since_bloom": 500.7,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 58.9,
+   "stress_days": 7
+  }
+ },
+ {
+  "field_id": "VD-08",
+  "name": "Onion Field VD-08",
+  "crop": "onion",
+  "region": "vidalia",
+  "region_label": "Vidalia / Toombs County",
+  "area_acres": 68.8,
+  "packing_house_id": "PH-VD-02",
+  "center": [
+   32.21576575747629,
+   -82.39008766402327
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.38538132707431,
+      32.21560426143027
+     ],
+     [
+      -82.39351198671565,
+      32.21870272771414
+     ],
+     [
+      -82.39478470989593,
+      32.21581351027678
+     ],
+     [
+      -82.38647022106238,
+      32.212881258076116
+     ],
+     [
+      -82.38538132707431,
+      32.21560426143027
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 77.3,
+   "tier": "critical",
+   "canopy_temp_f": 92.3,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 98.3,
+   "humidity_pct": 63.8,
+   "exceedance_hours": 0.84,
+   "persistence_forecast_hours": 2.5,
+   "components": {
+    "temp_score": 1.0,
+    "exceedance_score": 0.105,
+    "persistence_score": 0.417
+   }
+  },
+  "harvest": {
+   "urgency": 91.6,
+   "window": "NOW",
+   "gdd_since_bloom": 565.8,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 66.6,
+   "stress_days": 5
+  }
+ },
+ {
+  "field_id": "VD-09",
+  "name": "Onion Field VD-09",
+  "crop": "onion",
+  "region": "vidalia",
+  "region_label": "Vidalia / Toombs County",
+  "area_acres": 29.6,
+  "packing_house_id": "PH-VD-03",
+  "center": [
+   32.22757805852726,
+   -82.4353623794114
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.43253391745377,
+      32.22722499685645
+     ],
+     [
+      -82.43728795790773,
+      32.229818525307216
+     ],
+     [
+      -82.4382962816083,
+      32.2280505239644
+     ],
+     [
+      -82.43337950298644,
+      32.225277234038614
+     ],
+     [
+      -82.43253391745377,
+      32.22722499685645
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 80.7,
+   "tier": "critical",
+   "canopy_temp_f": 93.0,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 97.8,
+   "humidity_pct": 57.5,
+   "exceedance_hours": 1.61,
+   "persistence_forecast_hours": 2.47,
+   "components": {
+    "temp_score": 1.0,
+    "exceedance_score": 0.201,
+    "persistence_score": 0.412
+   }
+  },
+  "harvest": {
+   "urgency": 87.1,
+   "window": "NOW",
+   "gdd_since_bloom": 485.7,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 57.1,
+   "stress_days": 7
+  }
+ },
+ {
+  "field_id": "VD-10",
+  "name": "Onion Field VD-10",
+  "crop": "onion",
+  "region": "vidalia",
+  "region_label": "Vidalia / Toombs County",
+  "area_acres": 75.6,
+  "packing_house_id": "PH-VD-01",
+  "center": [
+   32.22882166781157,
+   -82.42116732892961
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.42183453318532,
+      32.22374249446204
+     ],
+     [
+      -82.41780203879816,
+      32.23255978918271
+     ],
+     [
+      -82.42044261465443,
+      32.23395157389268
+     ],
+     [
+      -82.42455826024934,
+      32.22508101851682
+     ],
+     [
+      -82.42183453318532,
+      32.22374249446204
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 78.9,
+   "tier": "critical",
+   "canopy_temp_f": 93.5,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 99.5,
+   "humidity_pct": 63.2,
+   "exceedance_hours": 1.61,
+   "persistence_forecast_hours": 1.88,
+   "components": {
+    "temp_score": 1.0,
+    "exceedance_score": 0.201,
+    "persistence_score": 0.313
+   }
+  },
+  "harvest": {
+   "urgency": 100.0,
+   "window": "NOW",
+   "gdd_since_bloom": 652.1,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 76.7,
+   "stress_days": 8
+  }
+ },
+ {
+  "field_id": "VD-11",
+  "name": "Onion Field VD-11",
+  "crop": "onion",
+  "region": "vidalia",
+  "region_label": "Vidalia / Toombs County",
+  "area_acres": 20.1,
+  "packing_house_id": "PH-VD-02",
+  "center": [
+   32.229524367402945,
+   -82.40796166038233
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.4056136157552,
+      32.23006439626352
+     ],
+     [
+      -82.41012159218607,
+      32.23069711806148
+     ],
+     [
+      -82.41030052199483,
+      32.229010487520796
+     ],
+     [
+      -82.40586627418539,
+      32.22832506083559
+     ],
+     [
+      -82.4056136157552,
+      32.23006439626352
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 72.8,
+   "tier": "high",
+   "canopy_temp_f": 93.0,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 102.9,
+   "humidity_pct": 69.7,
+   "exceedance_hours": 0.7,
+   "persistence_forecast_hours": 1.2,
+   "components": {
+    "temp_score": 1.0,
+    "exceedance_score": 0.087,
+    "persistence_score": 0.2
+   }
+  },
+  "harvest": {
+   "urgency": 75.1,
+   "window": "07-16",
+   "gdd_since_bloom": 468.4,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 55.1,
+   "stress_days": 4
+  }
+ },
+ {
+  "field_id": "VD-12",
+  "name": "Onion Field VD-12",
+  "crop": "onion",
+  "region": "vidalia",
+  "region_label": "Vidalia / Toombs County",
+  "area_acres": 58.7,
+  "packing_house_id": "PH-VD-03",
+  "center": [
+   32.22925125013753,
+   -82.39141831652721
+  ],
+  "polygon": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -82.39313544807182,
+      32.22503377173209
+     ],
+     [
+      -82.38769597013446,
+      32.231751201181304
+     ],
+     [
+      -82.38978865157426,
+      32.233420798241625
+     ],
+     [
+      -82.39510599888595,
+      32.22675253679761
+     ],
+     [
+      -82.39313544807182,
+      32.22503377173209
+     ]
+    ]
+   ]
+  },
+  "risk": {
+   "score": 72.3,
+   "tier": "high",
+   "canopy_temp_f": 93.2,
+   "threshold_f": 95.0,
+   "critical_f": 100.0,
+   "heat_index_f": 100.0,
+   "humidity_pct": 66.1,
+   "exceedance_hours": 0.53,
+   "persistence_forecast_hours": 1.3,
+   "components": {
+    "temp_score": 1.0,
+    "exceedance_score": 0.066,
+    "persistence_score": 0.217
+   }
+  },
+  "harvest": {
+   "urgency": 98.7,
+   "window": "NOW",
+   "gdd_since_bloom": 754.2,
+   "gdd_target": 850.0,
+   "gdd_progress_pct": 88.7,
+   "stress_days": 2
+  }
+ }
+]

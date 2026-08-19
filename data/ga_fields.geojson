@@ -1,0 +1,1953 @@
+{
+  "type": "FeatureCollection",
+  "name": "Georgia crop field polygons (45 synthetic parcels, EPSG:4326)",
+  "schema_version": 2,
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "generated_by": "scripts/build_ga_fields.py",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PV-01",
+      "properties": {
+        "id": "PV-01",
+        "name": "Peach Orchard PV-01",
+        "crop": "peach",
+        "region": "fort_valley",
+        "region_label": "Fort Valley / Peach County",
+        "area_acres": 138.7,
+        "target_area_acres": 137.2,
+        "packing_house_id": "PH-FV-01",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "pre-harvest_14d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.9309146753847,
+              32.526553469594006
+            ],
+            [
+              -83.93208087765848,
+              32.53742373816685
+            ],
+            [
+              -83.93697087842762,
+              32.53688665720024
+            ],
+            [
+              -83.93589734571474,
+              32.52614703280315
+            ],
+            [
+              -83.9309146753847,
+              32.526553469594006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PV-02",
+      "properties": {
+        "id": "PV-02",
+        "name": "Peach Orchard PV-02",
+        "crop": "peach",
+        "region": "fort_valley",
+        "region_label": "Fort Valley / Peach County",
+        "area_acres": 59.8,
+        "target_area_acres": 60.2,
+        "packing_house_id": "PH-FV-02",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "pre-harvest_14d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.90207381387869,
+              32.53228360093703
+            ],
+            [
+              -83.91046221084177,
+              32.53361477340681
+            ],
+            [
+              -83.91093854542812,
+              32.530977015847725
+            ],
+            [
+              -83.90263114276243,
+              32.529531961266166
+            ],
+            [
+              -83.90207381387869,
+              32.53228360093703
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PV-03",
+      "properties": {
+        "id": "PV-03",
+        "name": "Peach Orchard PV-03",
+        "crop": "peach",
+        "region": "fort_valley",
+        "region_label": "Fort Valley / Peach County",
+        "area_acres": 52.0,
+        "target_area_acres": 52.5,
+        "packing_house_id": "PH-FV-03",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "pre-harvest_14d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.88647039108017,
+              32.53440611324958
+            ],
+            [
+              -83.88990231167993,
+              32.54150240594216
+            ],
+            [
+              -83.89220405721404,
+              32.54054068304647
+            ],
+            [
+              -83.8887935159164,
+              32.53326816758277
+            ],
+            [
+              -83.88647039108017,
+              32.53440611324958
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PV-04",
+      "properties": {
+        "id": "PV-04",
+        "name": "Peach Orchard PV-04",
+        "crop": "peach",
+        "region": "fort_valley",
+        "region_label": "Fort Valley / Peach County",
+        "area_acres": 73.7,
+        "target_area_acres": 74.0,
+        "packing_house_id": "PH-FV-01",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "pre-harvest_14d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.86015904992954,
+              32.531248591987435
+            ],
+            [
+              -83.86590549743033,
+              32.53938690659245
+            ],
+            [
+              -83.86820128686178,
+              32.53755344207869
+            ],
+            [
+              -83.86230946237745,
+              32.529445484047685
+            ],
+            [
+              -83.86015904992954,
+              32.531248591987435
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PV-05",
+      "properties": {
+        "id": "PV-05",
+        "name": "Peach Orchard PV-05",
+        "crop": "peach",
+        "region": "fort_valley",
+        "region_label": "Fort Valley / Peach County",
+        "area_acres": 46.7,
+        "target_area_acres": 47.4,
+        "packing_house_id": "PH-FV-02",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "pre-harvest_14d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.84690052700476,
+              32.5353113387834
+            ],
+            [
+              -83.8396226989687,
+              32.53623742043077
+            ],
+            [
+              -83.83999284867274,
+              32.53869503769405
+            ],
+            [
+              -83.84722675530003,
+              32.537768052774474
+            ],
+            [
+              -83.84690052700476,
+              32.5353113387834
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PV-06",
+      "properties": {
+        "id": "PV-06",
+        "name": "Peach Orchard PV-06",
+        "crop": "peach",
+        "region": "fort_valley",
+        "region_label": "Fort Valley / Peach County",
+        "area_acres": 187.8,
+        "target_area_acres": 190.0,
+        "packing_house_id": "PH-FV-03",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "pre-harvest_14d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.92698768186008,
+              32.55158739728012
+            ],
+            [
+              -83.93394232309457,
+              32.564466638829416
+            ],
+            [
+              -83.93825426533301,
+              32.56168878957426
+            ],
+            [
+              -83.93122802060418,
+              32.54908263711498
+            ],
+            [
+              -83.92698768186008,
+              32.55158739728012
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PV-07",
+      "properties": {
+        "id": "PV-07",
+        "name": "Peach Orchard PV-07",
+        "crop": "peach",
+        "region": "fort_valley",
+        "region_label": "Fort Valley / Peach County",
+        "area_acres": 50.3,
+        "target_area_acres": 50.2,
+        "packing_house_id": "PH-FV-01",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "pre-harvest_14d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.91744942443471,
+              32.55134435724025
+            ],
+            [
+              -83.91097553053497,
+              32.55264491550086
+            ],
+            [
+              -83.911340114532,
+              32.55543161800584
+            ],
+            [
+              -83.91807255410549,
+              32.5543010349272
+            ],
+            [
+              -83.91744942443471,
+              32.55134435724025
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PV-08",
+      "properties": {
+        "id": "PV-08",
+        "name": "Peach Orchard PV-08",
+        "crop": "peach",
+        "region": "fort_valley",
+        "region_label": "Fort Valley / Peach County",
+        "area_acres": 180.6,
+        "target_area_acres": 175.5,
+        "packing_house_id": "PH-FV-02",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "pre-harvest_14d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.88295624297089,
+              32.549537345790036
+            ],
+            [
+              -83.87917011652249,
+              32.56205874844212
+            ],
+            [
+              -83.88451874703183,
+              32.56344656861489
+            ],
+            [
+              -83.88798629782586,
+              32.550727279932595
+            ],
+            [
+              -83.88295624297089,
+              32.549537345790036
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PV-09",
+      "properties": {
+        "id": "PV-09",
+        "name": "Peach Orchard PV-09",
+        "crop": "peach",
+        "region": "fort_valley",
+        "region_label": "Fort Valley / Peach County",
+        "area_acres": 21.3,
+        "target_area_acres": 20.7,
+        "packing_house_id": "PH-FV-03",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "pre-harvest_14d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.86430552165862,
+              32.549356167229135
+            ],
+            [
+              -83.86238297726325,
+              32.55366562423903
+            ],
+            [
+              -83.8639480549915,
+              32.55436396798415
+            ],
+            [
+              -83.86594079436746,
+              32.550025466292034
+            ],
+            [
+              -83.86430552165862,
+              32.549356167229135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PV-10",
+      "properties": {
+        "id": "PV-10",
+        "name": "Peach Orchard PV-10",
+        "crop": "peach",
+        "region": "fort_valley",
+        "region_label": "Fort Valley / Peach County",
+        "area_acres": 159.3,
+        "target_area_acres": 163.6,
+        "packing_house_id": "PH-FV-01",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "pre-harvest_14d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.83985411803155,
+              32.54991787784246
+            ],
+            [
+              -83.83572477047802,
+              32.56232847902179
+            ],
+            [
+              -83.84021962741515,
+              32.56386315868199
+            ],
+            [
+              -83.84430823791892,
+              32.55119266599884
+            ],
+            [
+              -83.83985411803155,
+              32.54991787784246
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PV-11",
+      "properties": {
+        "id": "PV-11",
+        "name": "Peach Orchard PV-11",
+        "crop": "peach",
+        "region": "fort_valley",
+        "region_label": "Fort Valley / Peach County",
+        "area_acres": 38.7,
+        "target_area_acres": 38.3,
+        "packing_house_id": "PH-FV-02",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "pre-harvest_14d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.9400850076052,
+              32.568476069793135
+            ],
+            [
+              -83.93388889435398,
+              32.568918579654095
+            ],
+            [
+              -83.93403247547404,
+              32.57127512690579
+            ],
+            [
+              -83.94043855077906,
+              32.57085566593608
+            ],
+            [
+              -83.9400850076052,
+              32.568476069793135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PV-12",
+      "properties": {
+        "id": "PV-12",
+        "name": "Peach Orchard PV-12",
+        "crop": "peach",
+        "region": "fort_valley",
+        "region_label": "Fort Valley / Peach County",
+        "area_acres": 111.7,
+        "target_area_acres": 107.1,
+        "packing_house_id": "PH-FV-03",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "pre-harvest_14d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.90892484050235,
+              32.56885390052012
+            ],
+            [
+              -83.89949991225939,
+              32.57188699918979
+            ],
+            [
+              -83.90118213307886,
+              32.57623545765138
+            ],
+            [
+              -83.91020540468406,
+              32.57289035798924
+            ],
+            [
+              -83.90892484050235,
+              32.56885390052012
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PV-13",
+      "properties": {
+        "id": "PV-13",
+        "name": "Peach Orchard PV-13",
+        "crop": "peach",
+        "region": "fort_valley",
+        "region_label": "Fort Valley / Peach County",
+        "area_acres": 113.1,
+        "target_area_acres": 115.1,
+        "packing_house_id": "PH-FV-01",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "pre-harvest_14d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.88030079332553,
+              32.56765328687585
+            ],
+            [
+              -83.89218514128626,
+              32.57301933533762
+            ],
+            [
+              -83.89349589268556,
+              32.56996867367852
+            ],
+            [
+              -83.88171692570276,
+              32.56452025543748
+            ],
+            [
+              -83.88030079332553,
+              32.56765328687585
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PV-14",
+      "properties": {
+        "id": "PV-14",
+        "name": "Peach Orchard PV-14",
+        "crop": "peach",
+        "region": "fort_valley",
+        "region_label": "Fort Valley / Peach County",
+        "area_acres": 207.7,
+        "target_area_acres": 197.3,
+        "packing_house_id": "PH-FV-02",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "pre-harvest_14d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.85951194947197,
+              32.57268418203621
+            ],
+            [
+              -83.8732885799275,
+              32.58203214576089
+            ],
+            [
+              -83.87590446225654,
+              32.578019286317215
+            ],
+            [
+              -83.86253267876488,
+              32.568681860850404
+            ],
+            [
+              -83.85951194947197,
+              32.57268418203621
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PV-15",
+      "properties": {
+        "id": "PV-15",
+        "name": "Peach Orchard PV-15",
+        "crop": "peach",
+        "region": "fort_valley",
+        "region_label": "Fort Valley / Peach County",
+        "area_acres": 198.4,
+        "target_area_acres": 192.2,
+        "packing_house_id": "PH-FV-03",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "pre-harvest_14d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.83709190367797,
+              32.57565815526305
+            ],
+            [
+              -83.85175087580373,
+              32.578235681778004
+            ],
+            [
+              -83.8528239559057,
+              32.57320518343036
+            ],
+            [
+              -83.83847685491371,
+              32.570501820382795
+            ],
+            [
+              -83.83709190367797,
+              32.57565815526305
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AL-01",
+      "properties": {
+        "id": "AL-01",
+        "name": "Pecan Grove AL-01",
+        "crop": "pecan",
+        "region": "albany",
+        "region_label": "Albany / Dougherty County",
+        "area_acres": 329.3,
+        "target_area_acres": 343.8,
+        "packing_house_id": "PH-AL-01",
+        "gdd_base_f": 55.0,
+        "stage_sensitivity_window": "nut_fill_6wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.22698705769822,
+              31.56276172519029
+            ],
+            [
+              -84.20641609295157,
+              31.568274853900334
+            ],
+            [
+              -84.20823647184096,
+              31.57401238880785
+            ],
+            [
+              -84.2285554173328,
+              31.568496442586465
+            ],
+            [
+              -84.22698705769822,
+              31.56276172519029
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AL-02",
+      "properties": {
+        "id": "AL-02",
+        "name": "Pecan Grove AL-02",
+        "crop": "pecan",
+        "region": "albany",
+        "region_label": "Albany / Dougherty County",
+        "area_acres": 220.1,
+        "target_area_acres": 230.6,
+        "packing_house_id": "PH-AL-02",
+        "gdd_base_f": 55.0,
+        "stage_sensitivity_window": "nut_fill_6wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.17948875452451,
+              31.564642044603225
+            ],
+            [
+              -84.19118325210967,
+              31.57864940191848
+            ],
+            [
+              -84.19464091494423,
+              31.575142482989207
+            ],
+            [
+              -84.18294588477487,
+              31.56177238321525
+            ],
+            [
+              -84.17948875452451,
+              31.564642044603225
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AL-03",
+      "properties": {
+        "id": "AL-03",
+        "name": "Pecan Grove AL-03",
+        "crop": "pecan",
+        "region": "albany",
+        "region_label": "Albany / Dougherty County",
+        "area_acres": 106.9,
+        "target_area_acres": 108.9,
+        "packing_house_id": "PH-AL-03",
+        "gdd_base_f": 55.0,
+        "stage_sensitivity_window": "nut_fill_6wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.14742542458632,
+              31.563919406537526
+            ],
+            [
+              -84.15670984535691,
+              31.56474863149113
+            ],
+            [
+              -84.15714194856983,
+              31.560456593124783
+            ],
+            [
+              -84.14801389224063,
+              31.55938986630772
+            ],
+            [
+              -84.14742542458632,
+              31.563919406537526
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AL-04",
+      "properties": {
+        "id": "AL-04",
+        "name": "Pecan Grove AL-04",
+        "crop": "pecan",
+        "region": "albany",
+        "region_label": "Albany / Dougherty County",
+        "area_acres": 164.7,
+        "target_area_acres": 166.7,
+        "packing_house_id": "PH-AL-01",
+        "gdd_base_f": 55.0,
+        "stage_sensitivity_window": "nut_fill_6wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.12828596865991,
+              31.555789783323547
+            ],
+            [
+              -84.11622968907737,
+              31.561232148722336
+            ],
+            [
+              -84.11795407923499,
+              31.56557583629861
+            ],
+            [
+              -84.13020695301549,
+              31.560252939372067
+            ],
+            [
+              -84.12828596865991,
+              31.555789783323547
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AL-05",
+      "properties": {
+        "id": "AL-05",
+        "name": "Pecan Grove AL-05",
+        "crop": "pecan",
+        "region": "albany",
+        "region_label": "Albany / Dougherty County",
+        "area_acres": 247.5,
+        "target_area_acres": 248.1,
+        "packing_house_id": "PH-AL-02",
+        "gdd_base_f": 55.0,
+        "stage_sensitivity_window": "nut_fill_6wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.10472709638027,
+              31.560910735602135
+            ],
+            [
+              -84.08977129042815,
+              31.561377373561886
+            ],
+            [
+              -84.08980045307861,
+              31.567494395895277
+            ],
+            [
+              -84.10497066744361,
+              31.56742324969313
+            ],
+            [
+              -84.10472709638027,
+              31.560910735602135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AL-06",
+      "properties": {
+        "id": "AL-06",
+        "name": "Pecan Grove AL-06",
+        "crop": "pecan",
+        "region": "albany",
+        "region_label": "Albany / Dougherty County",
+        "area_acres": 166.0,
+        "target_area_acres": 161.8,
+        "packing_house_id": "PH-AL-03",
+        "gdd_base_f": 55.0,
+        "stage_sensitivity_window": "nut_fill_6wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.21136880461087,
+              31.585706348242184
+            ],
+            [
+              -84.22077893825836,
+              31.594124464466432
+            ],
+            [
+              -84.2241706542938,
+              31.59027126693303
+            ],
+            [
+              -84.21461532533314,
+              31.58195225984697
+            ],
+            [
+              -84.21136880461087,
+              31.585706348242184
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AL-07",
+      "properties": {
+        "id": "AL-07",
+        "name": "Pecan Grove AL-07",
+        "crop": "pecan",
+        "region": "albany",
+        "region_label": "Albany / Dougherty County",
+        "area_acres": 270.4,
+        "target_area_acres": 265.1,
+        "packing_house_id": "PH-AL-01",
+        "gdd_base_f": 55.0,
+        "stage_sensitivity_window": "nut_fill_6wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.17792973588502,
+              31.586288255649908
+            ],
+            [
+              -84.18953420029719,
+              31.60175843876016
+            ],
+            [
+              -84.19349515183829,
+              31.598769967183667
+            ],
+            [
+              -84.18259493841111,
+              31.582832522018432
+            ],
+            [
+              -84.17792973588502,
+              31.586288255649908
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AL-08",
+      "properties": {
+        "id": "AL-08",
+        "name": "Pecan Grove AL-08",
+        "crop": "pecan",
+        "region": "albany",
+        "region_label": "Albany / Dougherty County",
+        "area_acres": 85.4,
+        "target_area_acres": 82.9,
+        "packing_house_id": "PH-AL-02",
+        "gdd_base_f": 55.0,
+        "stage_sensitivity_window": "nut_fill_6wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.15670262039835,
+              31.585499169269834
+            ],
+            [
+              -84.16462161240653,
+              31.591972070324744
+            ],
+            [
+              -84.16677872018876,
+              31.58956415398782
+            ],
+            [
+              -84.15866962371383,
+              31.583051376470742
+            ],
+            [
+              -84.15670262039835,
+              31.585499169269834
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AL-09",
+      "properties": {
+        "id": "AL-09",
+        "name": "Pecan Grove AL-09",
+        "crop": "pecan",
+        "region": "albany",
+        "region_label": "Albany / Dougherty County",
+        "area_acres": 512.7,
+        "target_area_acres": 495.4,
+        "packing_house_id": "PH-AL-03",
+        "gdd_base_f": 55.0,
+        "stage_sensitivity_window": "nut_fill_6wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.12497352266543,
+              31.582188140019827
+            ],
+            [
+              -84.10256166402648,
+              31.59448927337626
+            ],
+            [
+              -84.10618825208972,
+              31.60130208889327
+            ],
+            [
+              -84.12887165811375,
+              31.588710676503652
+            ],
+            [
+              -84.12497352266543,
+              31.582188140019827
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AL-10",
+      "properties": {
+        "id": "AL-10",
+        "name": "Pecan Grove AL-10",
+        "crop": "pecan",
+        "region": "albany",
+        "region_label": "Albany / Dougherty County",
+        "area_acres": 323.6,
+        "target_area_acres": 330.8,
+        "packing_house_id": "PH-AL-01",
+        "gdd_base_f": 55.0,
+        "stage_sensitivity_window": "nut_fill_6wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.10099154128031,
+              31.58181329751263
+            ],
+            [
+              -84.08203518563425,
+              31.58533595654491
+            ],
+            [
+              -84.0837926666603,
+              31.59176276305817
+            ],
+            [
+              -84.10244137686125,
+              31.588001236235378
+            ],
+            [
+              -84.10099154128031,
+              31.58181329751263
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BA-01",
+      "properties": {
+        "id": "BA-01",
+        "name": "Blueberry Farm BA-01",
+        "crop": "blueberry",
+        "region": "bacon_appling",
+        "region_label": "Bacon / Appling Counties",
+        "area_acres": 88.7,
+        "target_area_acres": 92.0,
+        "packing_house_id": "PH-BA-01",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "fruit_set_4wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.49272620453914,
+              31.527148622093414
+            ],
+            [
+              -82.48500829271046,
+              31.53510620114245
+            ],
+            [
+              -82.4874862724253,
+              31.53715170239514
+            ],
+            [
+              -82.49489849344691,
+              31.529232452029373
+            ],
+            [
+              -82.49272620453914,
+              31.527148622093414
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BA-02",
+      "properties": {
+        "id": "BA-02",
+        "name": "Blueberry Farm BA-02",
+        "crop": "blueberry",
+        "region": "bacon_appling",
+        "region_label": "Bacon / Appling Counties",
+        "area_acres": 68.1,
+        "target_area_acres": 67.1,
+        "packing_house_id": "PH-BA-02",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "fruit_set_4wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.47866235249786,
+              31.5325862864245
+            ],
+            [
+              -82.46959500507698,
+              31.53511330312307
+            ],
+            [
+              -82.47044652541027,
+              31.537797151903753
+            ],
+            [
+              -82.47936118404752,
+              31.535292618969137
+            ],
+            [
+              -82.47866235249786,
+              31.5325862864245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BA-03",
+      "properties": {
+        "id": "BA-03",
+        "name": "Blueberry Farm BA-03",
+        "crop": "blueberry",
+        "region": "bacon_appling",
+        "region_label": "Bacon / Appling Counties",
+        "area_acres": 31.3,
+        "target_area_acres": 31.5,
+        "packing_house_id": "PH-BA-01",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "fruit_set_4wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.46020840776684,
+              31.53043573093376
+            ],
+            [
+              -82.45555512812129,
+              31.53300931614604
+            ],
+            [
+              -82.45658097799908,
+              31.535026052675516
+            ],
+            [
+              -82.46123378311717,
+              31.532450836553426
+            ],
+            [
+              -82.46020840776684,
+              31.53043573093376
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BA-04",
+      "properties": {
+        "id": "BA-04",
+        "name": "Blueberry Farm BA-04",
+        "crop": "blueberry",
+        "region": "bacon_appling",
+        "region_label": "Bacon / Appling Counties",
+        "area_acres": 33.7,
+        "target_area_acres": 32.5,
+        "packing_house_id": "PH-BA-02",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "fruit_set_4wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.4384096566798,
+              31.528575074697965
+            ],
+            [
+              -82.44187551685361,
+              31.532556106788125
+            ],
+            [
+              -82.44376625055571,
+              31.53090895024619
+            ],
+            [
+              -82.44024384005388,
+              31.52700981799314
+            ],
+            [
+              -82.4384096566798,
+              31.528575074697965
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BA-05",
+      "properties": {
+        "id": "BA-05",
+        "name": "Blueberry Farm BA-05",
+        "crop": "blueberry",
+        "region": "bacon_appling",
+        "region_label": "Bacon / Appling Counties",
+        "area_acres": 57.5,
+        "target_area_acres": 55.6,
+        "packing_house_id": "PH-BA-01",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "fruit_set_4wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.4809050525805,
+              31.54667259454527
+            ],
+            [
+              -82.48911568538492,
+              31.547090296861168
+            ],
+            [
+              -82.48933066802824,
+              31.544453805536275
+            ],
+            [
+              -82.48111673556099,
+              31.543950616005954
+            ],
+            [
+              -82.4809050525805,
+              31.54667259454527
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BA-06",
+      "properties": {
+        "id": "BA-06",
+        "name": "Blueberry Farm BA-06",
+        "crop": "blueberry",
+        "region": "bacon_appling",
+        "region_label": "Bacon / Appling Counties",
+        "area_acres": 32.2,
+        "target_area_acres": 33.0,
+        "packing_house_id": "PH-BA-02",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "fruit_set_4wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.47686029448951,
+              31.545850233181618
+            ],
+            [
+              -82.47160291209987,
+              31.54718012501601
+            ],
+            [
+              -82.47230426859846,
+              31.549421376696166
+            ],
+            [
+              -82.47755158670921,
+              31.54795706077551
+            ],
+            [
+              -82.47686029448951,
+              31.545850233181618
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BA-07",
+      "properties": {
+        "id": "BA-07",
+        "name": "Blueberry Farm BA-07",
+        "crop": "blueberry",
+        "region": "bacon_appling",
+        "region_label": "Bacon / Appling Counties",
+        "area_acres": 96.9,
+        "target_area_acres": 96.6,
+        "packing_house_id": "PH-BA-01",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "fruit_set_4wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.45381155419555,
+              31.539327039323034
+            ],
+            [
+              -82.45551894731865,
+              31.55076275684075
+            ],
+            [
+              -82.45875577065107,
+              31.550300555050324
+            ],
+            [
+              -82.45688865141777,
+              31.538740701665137
+            ],
+            [
+              -82.45381155419555,
+              31.539327039323034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BA-08",
+      "properties": {
+        "id": "BA-08",
+        "name": "Blueberry Farm BA-08",
+        "crop": "blueberry",
+        "region": "bacon_appling",
+        "region_label": "Bacon / Appling Counties",
+        "area_acres": 10.7,
+        "target_area_acres": 10.4,
+        "packing_house_id": "PH-BA-02",
+        "gdd_base_f": 50.0,
+        "stage_sensitivity_window": "fruit_set_4wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.44343130318003,
+              31.545116810435584
+            ],
+            [
+              -82.4404159676972,
+              31.546029598485813
+            ],
+            [
+              -82.44074172854953,
+              31.5472677390265
+            ],
+            [
+              -82.44376653430598,
+              31.54639803047932
+            ],
+            [
+              -82.44343130318003,
+              31.545116810435584
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VD-01",
+      "properties": {
+        "id": "VD-01",
+        "name": "Onion Field VD-01",
+        "crop": "onion",
+        "region": "vidalia",
+        "region_label": "Vidalia / Toombs County",
+        "area_acres": 74.3,
+        "target_area_acres": 70.9,
+        "packing_house_id": "PH-VD-01",
+        "gdd_base_f": 40.0,
+        "stage_sensitivity_window": "curing_3wk",
+        "has_curing_shed": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.43401474296451,
+              32.20242926339566
+            ],
+            [
+              -82.4295681496876,
+              32.209996133469375
+            ],
+            [
+              -82.43247322034654,
+              32.211687883973326
+            ],
+            [
+              -82.43674525979098,
+              32.204193337189054
+            ],
+            [
+              -82.43401474296451,
+              32.20242926339566
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VD-02",
+      "properties": {
+        "id": "VD-02",
+        "name": "Onion Field VD-02",
+        "crop": "onion",
+        "region": "vidalia",
+        "region_label": "Vidalia / Toombs County",
+        "area_acres": 15.6,
+        "target_area_acres": 15.4,
+        "packing_house_id": "PH-VD-02",
+        "gdd_base_f": 40.0,
+        "stage_sensitivity_window": "curing_3wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.41819862750378,
+              32.20549356724949
+            ],
+            [
+              -82.41825768979771,
+              32.20968658053195
+            ],
+            [
+              -82.41966719783579,
+              32.20967831793617
+            ],
+            [
+              -82.41963584914636,
+              32.20540886837468
+            ],
+            [
+              -82.41819862750378,
+              32.20549356724949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VD-03",
+      "properties": {
+        "id": "VD-03",
+        "name": "Onion Field VD-03",
+        "crop": "onion",
+        "region": "vidalia",
+        "region_label": "Vidalia / Toombs County",
+        "area_acres": 32.7,
+        "target_area_acres": 32.1,
+        "packing_house_id": "PH-VD-03",
+        "gdd_base_f": 40.0,
+        "stage_sensitivity_window": "curing_3wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.40653466034064,
+              32.203768487698724
+            ],
+            [
+              -82.4111642196349,
+              32.20641164203727
+            ],
+            [
+              -82.41234645473682,
+              32.20425287885649
+            ],
+            [
+              -82.40763438399063,
+              32.20175883173646
+            ],
+            [
+              -82.40653466034064,
+              32.203768487698724
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VD-04",
+      "properties": {
+        "id": "VD-04",
+        "name": "Onion Field VD-04",
+        "crop": "onion",
+        "region": "vidalia",
+        "region_label": "Vidalia / Toombs County",
+        "area_acres": 53.9,
+        "target_area_acres": 54.4,
+        "packing_house_id": "PH-VD-01",
+        "gdd_base_f": 40.0,
+        "stage_sensitivity_window": "curing_3wk",
+        "has_curing_shed": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.38939365598877,
+              32.20454337998436
+            ],
+            [
+              -82.39403011569301,
+              32.209747434421764
+            ],
+            [
+              -82.39631731989155,
+              32.20766130343387
+            ],
+            [
+              -82.39145378423684,
+              32.20255817651887
+            ],
+            [
+              -82.38939365598877,
+              32.20454337998436
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VD-05",
+      "properties": {
+        "id": "VD-05",
+        "name": "Onion Field VD-05",
+        "crop": "onion",
+        "region": "vidalia",
+        "region_label": "Vidalia / Toombs County",
+        "area_acres": 55.6,
+        "target_area_acres": 56.3,
+        "packing_house_id": "PH-VD-02",
+        "gdd_base_f": 40.0,
+        "stage_sensitivity_window": "curing_3wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.43215259335408,
+              32.21395373740115
+            ],
+            [
+              -82.43535780280659,
+              32.22200776019992
+            ],
+            [
+              -82.43759173567949,
+              32.221103182436046
+            ],
+            [
+              -82.4345469645383,
+              32.21302563463315
+            ],
+            [
+              -82.43215259335408,
+              32.21395373740115
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VD-06",
+      "properties": {
+        "id": "VD-06",
+        "name": "Onion Field VD-06",
+        "crop": "onion",
+        "region": "vidalia",
+        "region_label": "Vidalia / Toombs County",
+        "area_acres": 55.4,
+        "target_area_acres": 55.4,
+        "packing_house_id": "PH-VD-03",
+        "gdd_base_f": 40.0,
+        "stage_sensitivity_window": "curing_3wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.41983146440677,
+              32.21362027006461
+            ],
+            [
+              -82.42417650731659,
+              32.22073335774967
+            ],
+            [
+              -82.42645129926092,
+              32.21947189599963
+            ],
+            [
+              -82.42204473117289,
+              32.21236586257464
+            ],
+            [
+              -82.41983146440677,
+              32.21362027006461
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VD-07",
+      "properties": {
+        "id": "VD-07",
+        "name": "Onion Field VD-07",
+        "crop": "onion",
+        "region": "vidalia",
+        "region_label": "Vidalia / Toombs County",
+        "area_acres": 39.9,
+        "target_area_acres": 39.4,
+        "packing_house_id": "PH-VD-01",
+        "gdd_base_f": 40.0,
+        "stage_sensitivity_window": "curing_3wk",
+        "has_curing_shed": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.40023212623672,
+              32.215847445586334
+            ],
+            [
+              -82.40752226426969,
+              32.216689449132986
+            ],
+            [
+              -82.40773247098478,
+              32.21453543165489
+            ],
+            [
+              -82.40050329283079,
+              32.213797671489154
+            ],
+            [
+              -82.40023212623672,
+              32.215847445586334
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VD-08",
+      "properties": {
+        "id": "VD-08",
+        "name": "Onion Field VD-08",
+        "crop": "onion",
+        "region": "vidalia",
+        "region_label": "Vidalia / Toombs County",
+        "area_acres": 68.8,
+        "target_area_acres": 66.5,
+        "packing_house_id": "PH-VD-02",
+        "gdd_base_f": 40.0,
+        "stage_sensitivity_window": "curing_3wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.38538132707431,
+              32.21560426143027
+            ],
+            [
+              -82.39351198671565,
+              32.21870272771414
+            ],
+            [
+              -82.39478470989593,
+              32.21581351027678
+            ],
+            [
+              -82.38647022106238,
+              32.212881258076116
+            ],
+            [
+              -82.38538132707431,
+              32.21560426143027
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VD-09",
+      "properties": {
+        "id": "VD-09",
+        "name": "Onion Field VD-09",
+        "crop": "onion",
+        "region": "vidalia",
+        "region_label": "Vidalia / Toombs County",
+        "area_acres": 29.6,
+        "target_area_acres": 30.8,
+        "packing_house_id": "PH-VD-03",
+        "gdd_base_f": 40.0,
+        "stage_sensitivity_window": "curing_3wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.43253391745377,
+              32.22722499685645
+            ],
+            [
+              -82.43728795790773,
+              32.229818525307216
+            ],
+            [
+              -82.4382962816083,
+              32.2280505239644
+            ],
+            [
+              -82.43337950298644,
+              32.225277234038614
+            ],
+            [
+              -82.43253391745377,
+              32.22722499685645
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VD-10",
+      "properties": {
+        "id": "VD-10",
+        "name": "Onion Field VD-10",
+        "crop": "onion",
+        "region": "vidalia",
+        "region_label": "Vidalia / Toombs County",
+        "area_acres": 75.6,
+        "target_area_acres": 79.9,
+        "packing_house_id": "PH-VD-01",
+        "gdd_base_f": 40.0,
+        "stage_sensitivity_window": "curing_3wk",
+        "has_curing_shed": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.42183453318532,
+              32.22374249446204
+            ],
+            [
+              -82.41780203879816,
+              32.23255978918271
+            ],
+            [
+              -82.42044261465443,
+              32.23395157389268
+            ],
+            [
+              -82.42455826024934,
+              32.22508101851682
+            ],
+            [
+              -82.42183453318532,
+              32.22374249446204
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VD-11",
+      "properties": {
+        "id": "VD-11",
+        "name": "Onion Field VD-11",
+        "crop": "onion",
+        "region": "vidalia",
+        "region_label": "Vidalia / Toombs County",
+        "area_acres": 20.1,
+        "target_area_acres": 19.2,
+        "packing_house_id": "PH-VD-02",
+        "gdd_base_f": 40.0,
+        "stage_sensitivity_window": "curing_3wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.4056136157552,
+              32.23006439626352
+            ],
+            [
+              -82.41012159218607,
+              32.23069711806148
+            ],
+            [
+              -82.41030052199483,
+              32.229010487520796
+            ],
+            [
+              -82.40586627418539,
+              32.22832506083559
+            ],
+            [
+              -82.4056136157552,
+              32.23006439626352
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VD-12",
+      "properties": {
+        "id": "VD-12",
+        "name": "Onion Field VD-12",
+        "crop": "onion",
+        "region": "vidalia",
+        "region_label": "Vidalia / Toombs County",
+        "area_acres": 58.7,
+        "target_area_acres": 61.5,
+        "packing_house_id": "PH-VD-03",
+        "gdd_base_f": 40.0,
+        "stage_sensitivity_window": "curing_3wk"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.39313544807182,
+              32.22503377173209
+            ],
+            [
+              -82.38769597013446,
+              32.231751201181304
+            ],
+            [
+              -82.38978865157426,
+              32.233420798241625
+            ],
+            [
+              -82.39510599888595,
+              32.22675253679761
+            ],
+            [
+              -82.39313544807182,
+              32.22503377173209
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

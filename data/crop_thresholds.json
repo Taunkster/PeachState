@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "description": "Crop-specific canopy heat thresholds (deg F), risk formula weights, and Q10 spoilage parameters for PeachState CoolChain demo (Georgia, USA). Risk = 100 * clamp(sum(w_i * z_i)) where z are standardized proxies (canopy temp relative to threshold, exceedance hours, persistence).",
+  "frozen_date": "2024-07-15",
+  "units": "fahrenheit",
+  "crops": {
+    "peach": {
+      "name": "Peach",
+      "region": "Fort Valley / Peach County",
+      "alert_f": 95.0,
+      "critical_f": 100.0,
+      "risk_weights": {
+        "temp": 0.45,
+        "exceedance": 0.35,
+        "persistence": 0.20
+      },
+      "q10_spoilage": 2.8,
+      "lethal_temp_f": 104.0,
+      "tolerance_deg_hours": 480,
+      "canopy_k": 0.008,
+      "gdd_base_f": 50.0,
+      "gdd_target_bloom_to_harvest": 850,
+      "notes": "Demo hero crop. 95F = brown rot acceleration, 100F = critical softening. Alert crop: PV-07.",
+      "sources": [
+        "UGA Extension Circular 1173 - Peach Growing Degree Days / heat-unit thresholds",
+        "UGA College of Ag - Peach production & postharvest heat guidance"
+      ]
+    },
+    "pecan": {
+      "name": "Pecan",
+      "region": "Albany / Dougherty County",
+      "alert_f": 95.0,
+      "critical_f": 100.0,
+      "risk_weights": {
+        "temp": 0.40,
+        "exceedance": 0.35,
+        "persistence": 0.25
+      },
+      "q10_spoilage": 2.2,
+      "lethal_temp_f": 104.0,
+      "tolerance_deg_hours": 600,
+      "canopy_k": 0.006,
+      "gdd_base_f": 55.0,
+      "gdd_target_bloom_to_harvest": 2200,
+      "notes": "Nut fill stage: 95F = poor kernel quality, 100F = shuck decline. GDD base 55F per UGA pecan heat-unit guidance (Southeastern Pecan Growers Handbook, UGA C-1174 Pecan Management Calendar).",
+      "sources": [
+        "UGA Pecan Extension - 'Pecans and Heat' (Lenny Wells, site.extension.uga.edu/pecan/2022/06/pecans-and-heat/)",
+        "Southeastern Pecan Growers Handbook (UGA/Auburn/USDA), heat-unit base 55F",
+        "UGA C-1174 Pecan Management Calendar (fieldreport.caes.uga.edu)"
+      ]
+    },
+    "blueberry": {
+      "name": "Blueberry",
+      "region": "Bacon/Appling Counties",
+      "alert_f": 90.0,
+      "critical_f": 95.0,
+      "risk_weights": {
+        "temp": 0.50,
+        "exceedance": 0.30,
+        "persistence": 0.20
+      },
+      "q10_spoilage": 3.2,
+      "lethal_temp_f": 100.0,
+      "tolerance_deg_hours": 350,
+      "canopy_k": 0.010,
+      "gdd_base_f": 50.0,
+      "gdd_target_bloom_to_harvest": 650,
+      "notes": "90F = accelerated decay, 95F = anthocyanin loss. Most sensitive of the four.",
+      "sources": [
+        "UGA Extension - Blueberry production (Southeast Regional Blueberry Handbook)",
+        "USDA ARS blueberry postharvest heat-stress guidance"
+      ]
+    },
+    "vidalia_onion": {
+      "name": "Vidalia onion",
+      "region": "Vidalia / Toombs County",
+      "alert_f": 85.0,
+      "critical_f": 90.0,
+      "risk_weights": {
+        "temp": 0.55,
+        "exceedance": 0.30,
+        "persistence": 0.15
+      },
+      "q10_spoilage": 1.8,
+      "lethal_temp_f": 95.0,
+      "tolerance_deg_hours": 720,
+      "canopy_k": 0.006,
+      "gdd_base_f": 40.0,
+      "gdd_target_plant_to_cure": 950,
+      "notes": "85F = sprouting risk in curing/transit, 90F = rot. Curing sheds are heat-sensitive stage.",
+      "sources": [
+        "UGA Extension - Vidalia onion curing & storage (Vidalia Onion & Vegetable Research Center)",
+        "UGA B 1327 - Sweet Onion Storage / heat-sprout thresholds"
+      ]
+    },
+    "community": {
+      "name": "Community / residential",
+      "region": "Athens / Atlanta",
+      "alert_f": 90.0,
+      "critical_f": 95.0,
+      "risk_weights": {
+        "temp": 0.45,
+        "exceedance": 0.35,
+        "persistence": 0.20
+      },
+      "q10_spoilage": 2.5,
+      "lethal_temp_f": 100.0,
+      "tolerance_deg_hours": 400,
+      "canopy_k": 0.008,
+      "gdd_base_f": 50.0,
+      "gdd_target_bloom_to_harvest": 700,
+      "notes": "Mixed vegetables / greens. Used for Scene 5 community gardens + last-mile delivery.",
+      "sources": [
+        "UGA Extension - Home/community garden heat management (general)",
+        "USDA H66 - The Commercial Storage of Fruits, Vegetables, and Florist and Nursery Stocks (Q10 spoilage rates)"
+      ]
+    }
+  },
+  "q10_reference": "USDA Agriculture Handbook No. 66 'The Commercial Storage of Fruits, Vegetables, and Florist and Nursery Stocks' (Q10 spoilage acceleration per 10C rise)",
+  "gdd_method": "GDD = max(0, ((Tmax + Tmin)/2) - base); bases: peach/blueberry/community 50F, pecan 55F, Vidalia onion 40F. UGA CAES Circular 1320 documents the standard GDD calculation (base + optional 86F cap for warm-season crops).",
+  "sources_overall": [
+    "UGA Cooperative Extension (extension.uga.edu) - pecan, peach, blueberry, onion production guidance",
+    "UGA CAES Field Report C-1320 'Growing Degree Days for Sweet Corn in Southern Georgia' (GDD method)",
+    "Southeastern Pecan Growers Handbook (UGA/Auburn/USDA)",
+    "USDA Agriculture Handbook No. 66 (Q10 / storage spoilage)",
+    "Andersen & Brodbeck 1988, J. Amer. Soc. Hort. Sci. 113:444-450 (pecan heat tolerance: photosynthesis to 106F leaf temp with adequate water)"
+  ],
+  "risk_tiers": {
+    "LOW":       {"max_score": 30},
+    "MEDIUM":    {"max_score": 60},
+    "HIGH":      {"max_score": 80},
+    "CRITICAL":  {"max_score": 100}
+  }
+}

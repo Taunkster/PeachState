@@ -1,0 +1,29 @@
+{
+  "frames": {
+    "08:00": {
+      "PV-07": {"tier": "medium", "score": 87, "canopy_temp_f": 92.1},
+      "PV-01": {"tier": "low", "score": 32, "canopy_temp_f": 88.5},
+      "ALB-01": {"tier": "low", "score": 28, "canopy_temp_f": 87.2}
+    },
+    "11:00": {
+      "PV-07": {"tier": "high", "score": 91, "canopy_temp_f": 96.8},
+      "PV-01": {"tier": "medium", "score": 54, "canopy_temp_f": 91.2},
+      "ALB-01": {"tier": "medium", "score": 58, "canopy_temp_f": 92.5}
+    },
+    "15:00": {
+      "PV-07": {"tier": "critical", "score": 94, "canopy_temp_f": 98.2},
+      "PV-01": {"tier": "high", "score": 78, "canopy_temp_f": 94.3},
+      "ALB-01": {"tier": "high", "score": 82, "canopy_temp_f": 95.1}
+    }
+  },
+  "field_tiers": {
+    "08:00": {"PV-07": "medium", "PV-01": "low", "ALB-01": "low"},
+    "11:00": {"PV-07": "high", "PV-01": "medium", "ALB-01": "medium"},
+    "15:00": {"PV-07": "critical", "PV-01": "high", "ALB-01": "high"}
+  },
+  "field_scores": {
+    "08:00": {"PV-07": 87, "PV-01": 32, "ALB-01": 28},
+    "11:00": {"PV-07": 91, "PV-01": 54, "ALB-01": 58},
+    "15:00": {"PV-07": 94, "PV-01": 78, "ALB-01": 82}
+  }
+}
