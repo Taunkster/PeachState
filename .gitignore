@@ -18,13 +18,27 @@ htmlcov/
 
 # Data (large fixtures, databases, generated)
 data/coolchain.db
+data/coolchain.db-*
 data/fixtures/day6/
 data/fixtures/day1/
+data/fixtures/dashboard/
+data/fixtures/heat_intelligence_fort_valley.pdf
 data/rehearsal/
 data/submission/
 data/cache/
+data/video_charts/
+data/ga_roads*.gml
+data/corridor_nodes.json
+data/audit/
+data/reports/
+data/fixtures/README.md
 *.db
 *.sqlite
+
+# Large generated assets
+design/
+docs/
+requirements-lock.txt
 
 # IDE
 .vscode/
@@ -39,8 +53,12 @@ Thumbs.db
 # Logs
 *.log
 logs/
+streamlit.log
 
 # Distribution
 dist/
 build/
 *.egg-info/
+
+# Cache
+cache/

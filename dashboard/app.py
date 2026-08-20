@@ -39,10 +39,16 @@ REGIONS = [
 # session state helpers
 # ---------------------------------------------------------------------------
 def _init_state() -> None:
-    # Only non-widget keys are pre-seeded; widget values come from their own
-    # ``default=`` / ``value=`` args so Streamlit owns the session_state keys.
+    # Pre-seed all keys that are read before their widgets render.
+    # Widget values come from their own ``default=`` / ``value=`` args so
+    # Streamlit owns the session_state keys, but we must provide fallbacks
+    # for the first render before widgets execute.
     defaults = {
         "sms_sent": set(),
+        "region": "all",
+        "mode": "FIXTURES",
+        "demo_date": "2025-07-15",
+        "active_hour": "15:00",
     }
     for key, val in defaults.items():
         if key not in st.session_state:
