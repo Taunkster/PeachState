@@ -1,0 +1,47 @@
+{
+  "name": "peachstate-coolchain-video",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Remotion + Deck.gl + Vega-Lite video engine for the PeachState CoolChain 300s judge demo (1920x1080 @ 60fps).",
+  "license": "MIT",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render CoolChainMaster out/peachstate_coolchain_demo.mp4",
+    "render:frames": "remotion render CoolChainMaster out/frames --sequence",
+    "render:hook": "remotion render Hook out/hook.mp4",
+    "render:with-captions": "node scripts/render-with-captions.mjs",
+    "render:720p": "node scripts/render-web.mjs",
+    "render:recording": "remotion render CoolChainRecording out/peachstate_coolchain_demo_recording.mp4",
+    "captions:gen": "node scripts/generate-captions.mjs",
+    "build": "npm run render:frames && node scripts/encode.mjs",
+    "tokens:sync": "node scripts/sync-tokens.mjs",
+    "fixtures:gen": "node scripts/generate-fixtures.mjs",
+    "vega:render": "node scripts/vega-render.mjs",
+    "verify": "node scripts/verify-fixtures.mjs",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run tokens:sync && npm run fixtures:gen && npm run verify && npm run typecheck"
+  },
+  "dependencies": {
+    "@deck.gl/aggregation-layers": "^9.3.10",
+    "@deck.gl/core": "^9.3.10",
+    "@deck.gl/geo-layers": "^9.3.10",
+    "@deck.gl/layers": "^9.3.10",
+    "@deck.gl/react": "^9.3.10",
+    "@remotion/cli": "4.0.514",
+    "@remotion/renderer": "4.0.514",
+    "@remotion/transitions": "4.0.514",
+    "@types/maplibre-gl": "^1.13.2",
+    "maplibre-gl": "^6.6.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "remotion": "4.0.514",
+    "vega": "^6.4.0",
+    "vega-lite": "^6.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.9.0"
+  }
+}

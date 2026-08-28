@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega-lite.github.io/schema/vega-lite/v5.json",
+  "description": "PeachState CoolChain — Q10 spoilage degree-hour curves (Scene 3 Corridor). Canonical declarative spec; data binds to risk_data.json spoilage array. In-video SVG mirror lives in src/scenes/Corridor.tsx (deterministic); render standalone frames with `npm run vega:render`.",
+  "width": 560,
+  "height": 190,
+  "padding": { "left": 46, "right": 14, "top": 14, "bottom": 28 },
+  "data": { "name": "spoilage" },
+  "datasets": {
+    "spoilage": [
+      { "crop": "blueberry", "h": 0, "dh": 4.2 },
+      { "crop": "blueberry", "h": 4, "dh": 17.1 },
+      { "crop": "blueberry", "h": 8, "dh": 36.0 },
+      { "crop": "blueberry", "h": 12, "dh": 68.0 },
+      { "crop": "peach", "h": 0, "dh": 3.0 },
+      { "crop": "peach", "h": 4, "dh": 12.0 },
+      { "crop": "peach", "h": 8, "dh": 28.0 },
+      { "crop": "peach", "h": 12, "dh": 55.0 },
+      { "crop": "onion", "h": 0, "dh": 2.0 },
+      { "crop": "onion", "h": 4, "dh": 9.0 },
+      { "crop": "onion", "h": 8, "dh": 20.0 },
+      { "crop": "onion", "h": 12, "dh": 42.0 },
+      { "crop": "pecan", "h": 0, "dh": 1.5 },
+      { "crop": "pecan", "h": 4, "dh": 6.5 },
+      { "crop": "pecan", "h": 8, "dh": 15.0 },
+      { "crop": "pecan", "h": 12, "dh": 32.0 }
+    ]
+  },
+  "layer": [
+    {
+      "mark": { "type": "line", "strokeWidth": 2.6, "interpolate": "monotone" },
+      "encoding": {
+        "x": { "field": "h", "type": "quantitative", "title": "hours in transit", "axis": { "grid": true, "gridColor": "rgba(253,246,227,0.06)", "labelColor": "#5C6678", "titleColor": "#9AA4B5", "labelFont": "JetBrains Mono", "titleFont": "JetBrains Mono" } },
+        "y": { "field": "dh", "type": "quantitative", "title": "degree-hours", "axis": { "grid": true, "gridColor": "rgba(253,246,227,0.06)", "labelColor": "#5C6678", "titleColor": "#9AA4B5", "labelFont": "JetBrains Mono", "titleFont": "JetBrains Mono" } },
+        "color": {
+          "field": "crop",
+          "type": "nominal",
+          "scale": { "range": ["#A78BFA", "#FB923C", "#FDE047", "#7DD3FC"] },
+          "legend": { "labelColor": "#9AA4B5", "labelFont": "JetBrains Mono" }
+        }
+      }
+    }
+  ],
+  "background": "transparent"
+}

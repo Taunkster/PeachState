@@ -62,10 +62,14 @@ USDA H66 kinetics). All unit-tested with exact-value pins.
 
 ## Demo Video
 
-- **Final rehearsal (300 s, Loom-ready):** `data/rehearsal/day7_final_demo.mp4`
-  — full 5-minute demo, offline-safe, judge-ready.
-- Scene-by-scene backup cards: `data/rehearsal/frames/`.
-- Automated rehearsal log with per-scene timings: `data/rehearsal/rehearsal_log.json`.
+- **Source of truth:** the demo is a **Remotion (React)** project in [`video/`](video/) —
+  Deck.gl + OSM tile base maps, Vega-Lite charts, and burned-in captions.
+  6 scenes · 300 s · 1920×1080 @ 60 fps (18000 frames). See [`RENDER_INSTRUCTIONS.md`](RENDER_INSTRUCTIONS.md)
+  to render it yourself.
+- **Hackathon form cut (≤ 3:00):** `peachstate_coolchain_demo_3min.mp4` (exactly 180 s)
+  — Hook → FieldMap (canopy heatmap) → harvest alerts → I-16 vs I-75 cool corridor → KPI → scale.
+- **Full 5:00 master:** `peachstate_coolchain_demo_1080p.mp4` for repo/README use.
+- Script with timing budgets: [`docs/01_demo_script.md`](docs/01_demo_script.md).
 
 ## Team
 

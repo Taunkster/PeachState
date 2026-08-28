@@ -1,0 +1,10 @@
+# Remotion / build artifacts
+node_modules/
+out/
+.DS_Store
+*.log
+
+# Generated artifacts kept in sync by scripts (tokens:sync / fixtures:gen).
+# We commit them so the project works offline without regenerating.
+# src/design/design_tokens.generated.json
+# src/data/fixtures.generated.ts

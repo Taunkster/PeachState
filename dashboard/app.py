@@ -47,7 +47,7 @@ def _init_state() -> None:
         "sms_sent": set(),
         "region": "all",
         "mode": "FIXTURES",
-        "demo_date": "2025-07-15",
+        "demo_date": date.fromisoformat("2025-07-15"),
         "active_hour": "15:00",
     }
     for key, val in defaults.items():
